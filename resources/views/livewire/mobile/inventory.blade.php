@@ -305,7 +305,7 @@
                                 <P class="mr-8">30</P>
                             </div>
                             <div class="flex justify-center">
-                                <button class="w-48 border border-[#0948EE] rounded-lg text-center py-1 mt-1">مشخصات فروش</button>
+                                <button class="w-48 border border-[#0948EE] rounded-lg text-center py-1 mt-1 cursor-pointer">مشخصات فروش</button>
                             </div>
                             <div class="flex items-center mt-2">
                                 <p class="text-gray-500">قیمت خرید:</p>
@@ -418,7 +418,7 @@
                         <P class="mr-8">30</P>
                     </div>
                     <div class="flex justify-center mt-1">
-                        <button class="w-48 border border-[#0948EE] rounded-lg text-center py-3">مشخصات فروش</button>
+                        <button class="w-48 border border-[#0948EE] rounded-lg text-center py-3 cursor-pointer">مشخصات فروش</button>
                     </div>
                     <div class="flex items-center mt-2">
                         <p class="text-gray-500">قیمت خرید:</p>

@@ -5,26 +5,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-Route::get('/inventory', function () {
-    return view('Mobile.shop.inventory'); 
-});
-
-Route::get('/inventory2', function () {
-    return view('Mobile.shop.inventory2'); 
-});
-
-Route::get('/sell', function () {
-    return view('Mobile.shop.sell'); 
-});
-
-Route::get('/salaryworkers', function () {
-    return view('Mobile.shop.salaryworkers'); 
-=======
-=======
->>>>>>> origin/Marwa-K
 //Login
 Route::get('/login', function () {
     return view('Mobile.Auth.login');
@@ -41,6 +21,22 @@ Route::get('/customer', function () {
 // customerInformation
 Route::get('/customer-Information', function () {
     return view('Mobile.shop.customerInformation');
+});
+//Inventory
+Route::get('/inventory', function () {
+    return view('Mobile.shop.inventory'); 
+});
+//Inventory2
+Route::get('/inventory2', function () {
+    return view('Mobile.shop.inventory2'); 
+});
+//Sell
+Route::get('/sell', function () {
+    return view('Mobile.shop.sell'); 
+});
+//SalaryWorkers
+Route::get('/salaryworkers', function () {
+    return view('Mobile.shop.salaryworkers'); 
 });
 // deviceForm
 Route::get('/device-Form', function () {
@@ -66,8 +62,4 @@ Route::get('/borrowings-page', function () {
 // accounts-page
 Route::get('/accounts', function () {
     return view('Mobile.shop.accounts-page');
-<<<<<<< HEAD
->>>>>>> 35f639f42dfbb415133f110a21e2e895a9349a44
-=======
->>>>>>> origin/Marwa-K
 });

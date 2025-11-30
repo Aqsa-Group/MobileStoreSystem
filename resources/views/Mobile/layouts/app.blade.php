@@ -7,8 +7,6 @@
     @include('Mobile.layouts.links') 
     <style>
         @font-face {
-<<<<<<< HEAD
-<<<<<<< HEAD
         font-family: 'Yekan';
         src: url('/fonts/Yekan.ttf') format('truetype');
         font-weight: normal;
@@ -16,22 +14,7 @@
     }
 </style>
 </head>
-<body class="flex flex-row bg-gray-100 font-yekan">
-=======
-=======
->>>>>>> origin/Marwa-K
-    font-family: 'Yekan';
-    src: url('/fonts/Yekan.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-</style>
-</head>
 <body class="flex flex-row bg-gray-100 font-yekan ">
-<<<<<<< HEAD
->>>>>>> 35f639f42dfbb415133f110a21e2e895a9349a44
-=======
->>>>>>> origin/Marwa-K
 
     
    
@@ -40,16 +23,4 @@
     </main>
 
 </body>
-<<<<<<< HEAD
-<<<<<<< HEAD
 </html>
-=======
-</html>
-
-
->>>>>>> 35f639f42dfbb415133f110a21e2e895a9349a44
-=======
-</html>
-
-
->>>>>>> origin/Marwa-K

@@ -187,7 +187,7 @@
                                 </div>
                             </div>
                             <div class="col-span-3 my-5 md:my-0 md:px-0">
-                                <div class="mx-auto w-20 flex items-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                <div class="mx-auto w-20 flex items-center justify-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -229,7 +229,7 @@
                                 </div>
                             </div>
                             <div class="col-span-3 my-5 md:my-0 md:px-0">
-                                <div class="mx-auto w-20 flex items-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                <div class="mx-auto w-20 flex items-center justify-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -271,7 +271,7 @@
                                 </div>
                             </div>
                             <div class="col-span-3 my-5 md:my-0 md:px-0">
-                                <div class="mx-auto w-20 flex items-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                <div class="mx-auto w-20 flex items-center justify-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -313,7 +313,7 @@
                                 </div>
                             </div>
                             <div class="col-span-3 my-5 md:my-0 md:px-0">
-                                <div class="mx-auto w-20 flex items-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                <div class="mx-auto w-20 flex items-center justify-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -355,7 +355,7 @@
                                 </div>
                             </div>
                             <div class="col-span-3 my-5 md:my-0 md:px-0">
-                                <div class="mx-auto w-20 flex items-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                <div class="mx-auto w-20 flex items-center justify-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>

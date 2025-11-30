@@ -289,7 +289,7 @@
                                 <h1 class="font-bold text-sm md:text-xl">لیست موجودی تمام محصولات گدام:</h1>
                             </div>
                             <div class="flex gap-2">
-                                <div class="bg-[#0948EE14] p-2 text-[4px] rounded-lg text- flex items-center">
+                                <div class="bg-[#0948EE14] p-2 text-[4px] rounded-lg text- flex items-center cursor-pointer">
                                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_464_1127)">
                                             <path d="M10.73 12.424V6.21191" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
