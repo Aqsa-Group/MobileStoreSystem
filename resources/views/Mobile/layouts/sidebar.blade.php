@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>داشبورد</title>
   @include('Mobile.layouts.links')
+<<<<<<< HEAD
   @vite('resources/css/app.css')
 
 </head>
@@ -28,6 +29,9 @@
         transform: scale(0.95);
     }
 </style>
+=======
+</head>
+>>>>>>> 35f639f42dfbb415133f110a21e2e895a9349a44
 <body  >
   <!-- Header -->
   <header class="fixed top-0 inset-x-0 w-full bg-white z-[60] border-b-4 border-blue-500 p-2" style="border-color: rgba(9, 72, 238, 0.15);">
@@ -375,4 +379,8 @@
     });
   </script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 35f639f42dfbb415133f110a21e2e895a9349a44
