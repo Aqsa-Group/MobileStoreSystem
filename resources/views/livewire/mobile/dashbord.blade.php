@@ -51,7 +51,7 @@
 <path d="M17 7L22 2" stroke="#FF0004" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
         </div>
-        <h3 class="text-xl mt-8 font-bold">75000؋</h3>
+        <h3 class="text-xl mt-8 font-bold"></h3>
         </div>
         <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.15);">
                 <div class=" flex items-end justify-between">
@@ -78,7 +78,7 @@
 <path d="M22 2L17 7" stroke="#31009B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
         </div>
-        <h3 class="text-xl mt-8 font-bold">75000؋</h3>
+        <h3 class="text-xl mt-8 font-bold"></h3>
         </div>
         <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.15);">
                 <div class=" flex items-end justify-between">
@@ -89,7 +89,7 @@
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#FF4800" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
         </div>
-        <h3 class="text-xl mt-8 font-bold">75000؋</h3>
+        <h3 class="text-xl mt-8 font-bold"></h3>
         </div>
       </div>
     </aside>

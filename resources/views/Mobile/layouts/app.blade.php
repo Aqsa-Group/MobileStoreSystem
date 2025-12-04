@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>پنل مدیریت</title>
     @include('Mobile.layouts.links') 
+    @livewireStyles
+    
+
     <style>
         @font-face {
     font-family: 'Yekan';
@@ -14,14 +17,14 @@
 }
 </style>
 </head>
-<body class="flex flex-row bg-gray-100 font-yekan ">
+<body class="flex flex-row bg-[#D9D9D933]/20 md:bg-white font-yekan ">
 
     
    
     <main class="flex-1 main-content-container flex justify-center items-center  lg:w-[800px] xl:w-[1500px] mt-20 ">
         @yield('content') 
     </main>
-
+@livewireScripts
 </body>
 </html>
 
