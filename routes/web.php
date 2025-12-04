@@ -16,7 +16,6 @@ Route::get('/dasboard', function () {
     return view('Mobile.shop.dashboard');
 });
 
-<<<<<<< HEAD
 // Customers
 Route::get('/customers', function () {
     return view('Mobile.shop.customers');
@@ -31,7 +30,7 @@ Route::get('/userList', function () {
 Route::get('/reports', function () {
     return view('Mobile.shop.reports');
 });
-=======
+
 //Customer
 Route::get('/customer', function () {
     return view('Mobile.shop.customer');
@@ -42,19 +41,19 @@ Route::get('/customer-Information', function () {
 });
 //Inventory
 Route::get('/inventory', function () {
-    return view('Mobile.shop.inventory'); 
+    return view('Mobile.shop.inventory');
 });
 //Inventory2
 Route::get('/inventory2', function () {
-    return view('Mobile.shop.inventory2'); 
+    return view('Mobile.shop.inventory2');
 });
 //Sell
 Route::get('/sell', function () {
-    return view('Mobile.shop.sell'); 
+    return view('Mobile.shop.sell');
 });
 //SalaryWorkers
 Route::get('/salaryworkers', function () {
-    return view('Mobile.shop.salaryworkers'); 
+    return view('Mobile.shop.salaryworkers');
 });
 // deviceForm
 Route::get('/device-Form', function () {
@@ -81,4 +80,3 @@ Route::get('/borrowings-page', function () {
 Route::get('/accounts', function () {
     return view('Mobile.shop.accounts-page');
 });
->>>>>>> a3d068ec432630c213462c5e142331bb50beb7c7
