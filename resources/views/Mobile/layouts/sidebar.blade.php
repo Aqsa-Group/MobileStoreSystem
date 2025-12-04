@@ -5,6 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>داشبورد</title>
   @include('Mobile.layouts.links')
+  @vite('resources/css/app.css')
+
+</head>
+<style>
+    .fade-enter {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    .fade-enter-active {
+        transition: all 300ms ease-out;
+        opacity: 1;
+        transform: scale(1);
+    }
+    .fade-leave {
+        opacity: 1;
+        transform: scale(1);
+    }
+    .fade-leave-active {
+        transition: all 300ms ease-in;
+        opacity: 0;
+        transform: scale(0.95);
+    }
+</style>
 </head>
 <body  >
   <!-- Header -->

@@ -7,6 +7,11 @@
     @include('Mobile.layouts.links') 
     <style>
         @font-face {
+        font-family: 'Yekan';
+        src: url('/fonts/Yekan.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
     font-family: 'Yekan';
     src: url('/fonts/Yekan.ttf') format('truetype');
     font-weight: normal;

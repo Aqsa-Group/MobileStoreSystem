@@ -22,6 +22,22 @@ Route::get('/customer', function () {
 Route::get('/customer-Information', function () {
     return view('Mobile.shop.customerInformation');
 });
+//Inventory
+Route::get('/inventory', function () {
+    return view('Mobile.shop.inventory'); 
+});
+//Inventory2
+Route::get('/inventory2', function () {
+    return view('Mobile.shop.inventory2'); 
+});
+//Sell
+Route::get('/sell', function () {
+    return view('Mobile.shop.sell'); 
+});
+//SalaryWorkers
+Route::get('/salaryworkers', function () {
+    return view('Mobile.shop.salaryworkers'); 
+});
 // deviceForm
 Route::get('/device-Form', function () {
     return view('Mobile.shop.deviceForm');
