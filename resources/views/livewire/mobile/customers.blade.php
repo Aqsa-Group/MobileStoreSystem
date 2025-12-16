@@ -671,7 +671,7 @@
                     </button>
             </div>
             <!--mobile mode-->
-            <div class="container flex flex-col gap-2 md:hidden text-[10px] w-full bg-white" style="font-family: IRYekan;">
+            <div class="container flex flex-col gap-2 md:hidden text-[10px] w-full bg-white" >
                 <!--line-->
                 <hr class="w-full border-t-[1px] border-[#0948EE] border-dashed mt-3">
                 <div class="rounded-2xl flex flex-col items-center mt-1 border border-[#0948EE66] h-auto w-full">

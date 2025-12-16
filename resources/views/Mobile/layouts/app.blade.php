@@ -4,16 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>پنل مدیریت</title>
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@30.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
 
 @include('Mobile.layouts.links')
 @livewireStyles
 
 <style>
-@font-face {
-    font-family: 'Yekan';
-    src: url('/fonts/Yekan.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+body {
+    font-family: 'Vazir', 'Poppins', sans-serif;
 }
 </style>
 </head>

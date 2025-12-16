@@ -1,7 +1,7 @@
 <div>
     <main class="max-w-full overflow-x-hidden max-w-7xl   mt-0 ">
         <section class=" md:w-[900px] max-w-full m-2 overflow-x-hidden  h-full flex flex-col bg-[#FAFAFA] rounded-2xl shadow shadow-[0px_4px_4px_0px_#00000040] p-2  items-center"
-            style="font-family: IRYekan;">
+            >
             <!--header-->
             <div class="flex flex-col-reverse
             flex-col md:flex-row justify-between w-full   h-[40px] mt-1">
