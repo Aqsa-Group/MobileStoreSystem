@@ -1,13 +1,11 @@
 <div>
-
-
-    <main class=" max-w-7xl mx-auto mt-2  ">
+    <main class=" max-w-7xl mx-auto mt-2 overflow-x-hidden ">
         <!--section 1-->
-        <div class="grid grid-cols-2 md:grid-cols-6  gap-2 md:gap-4 w-full h-full md:w-[1190px] md:h-[110px] p-2 mx-auto items-center"
-            style="font-family: Poppins;">
+        <div class="grid grid-cols-2 md:grid-cols-6  gap-2 md:gap-4 w-full h-full md:w-[930px] md:h-[110px] p-2 mx-auto items-center"
+           >
             <!--No 1 -->
             <div
-                class="text-[#0746F7]  h-[80px]  md:h-[104px] md:w-full rounded-xl  border-r-[2px]     border-[#0746F7] bg-[#0746F708]" style="box-shadow: 0px 4px 4px 0px #00000040, 0 0 0 0 #3B82F6;">
+                class="text-[#0746F7] card-anim  shadow-xl shadow-[0px_4px_4px_0px_#00000040] h-[80px]  md:h-[104px] md:w-full rounded-xl  border-r-[2px]     border-[#0746F7] bg-[#0746F708]" >
                 <div class="flex flex-row gap-4 w-full p-2 mx-auto justify-between">
                     <span class="text-[15px] font-semibold">
                         کل مشتریان
@@ -57,7 +55,7 @@
                                 d="M9.08997 17.7804C7.67997 18.7204 7.67997 20.2603 9.08997 21.2003C10.69 22.2703 13.31 22.2703 14.91 21.2003C16.32 20.2603 16.32 18.7204 14.91 17.7804C13.32 16.7204 10.69 16.7204 9.08997 17.7804Z"
                                 stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                    </span>  
+                    </span>
                 </div>
                 <div class="flex flex-row gap-4 w-full p-2 mx-auto justify-between ">
                     <span class="text-[16px] md:text-[24px] font-semibold ">
@@ -72,7 +70,7 @@
             </div>
             <!--No 2 -->
             <div
-                class="text-[#0014AE] h-[80px]  md:h-[104px] md:w-full rounded-xl shadow-md border-r-[2px]  border-[#0014AE] bg-[#0014AE08]" style="box-shadow: 0px 4px 4px 0px #00000040, 0 0 0 0 #3B82F6;">
+                class="text-[#0014AE] h-[80px] shadow-xl shadow-[0px_4px_4px_0px_#00000040] card-anim  md:h-[104px] md:w-full rounded-xl border-r-[2px]  border-[#0014AE] bg-[#0014AE08]">
                 <div class="flex flex-row gap-1 md:gap-2  w-full p-2 mx-auto justify-between">
                     <span class="text-[13px] md:text-[15px] font-semibold">
                         مشتریان همیشگی
@@ -119,7 +117,7 @@
             </div>
             <!--No 3 -->
             <div
-                class="text-[#5100FF] h-[80px]  md:h-[104px] md:w-full rounded-xl  border-r-[2px]  border-[#5100FF] bg-[#5100FF08]" style="box-shadow: 0px 4px 4px 0px #00000040, 0 0 0 0 #3B82F6;">
+                class="text-[#5100FF] h-[80px] card-anim md:h-[104px] shadow-xl shadow-[0px_4px_4px_0px_#00000040] md:w-full rounded-xl  border-r-[2px]  border-[#5100FF] bg-[#5100FF08]">
                 <div class="flex flex-row w-full p-1 md:p-2 mx-auto">
                     <span class="text-[13px] md:text-[15px] font-semibold">
                         مشتریان جدید این ماه
@@ -159,7 +157,7 @@
                         </svg>
                     </span>
                 </div>
-                <div class="flex flex-row gap-4 w-full p-2 mx-auto justify-between ">
+                <div class="flex flex-row gap-4 w-full px-2 mx-auto justify-between ">
                     <span class="text-[16px] md:text-[24px] font-semibold ">
                         500
                     </span>
@@ -172,7 +170,7 @@
             </div>
             <!--No 4 -->
             <div
-                class="text-[#31009B] h-[80px]  md:h-[104px] md:w-full rounded-xl shadow-md border-r-[2px] shadow-[#0746F740]  border-[#31009B] bg-[#31009B08]">
+                class="text-[#31009B] h-[80px] card-anim shadow-xl shadow-[0px_4px_4px_0px_#00000040]  md:h-[104px] md:w-full rounded-xl  border-r-[2px]   border-[#31009B] bg-[#31009B08]">
                 <div class="flex flex-row gap-4 w-full p-2 mx-auto justify-between">
                     <span class="text-[13px] md:text-[15px] font-semibold">
                         مشتریان راضی
@@ -213,8 +211,8 @@
             </div>
             <!--No 5 -->
             <div
-                class="text-[#0099FF] h-[80px]  md:h-[104px] md:w-full rounded-xl  border-r-[2px]   border-[#0099FF] bg-[#0099FF08]"
-                style="box-shadow: 0px 4px 4px 0px #00000040, 0 0 0 0 #3B82F6;">
+                class="text-[#0099FF] shadow-xl shadow-[0px_4px_4px_0px_#00000040] h-[80px] card-anim md:h-[104px] md:w-full rounded-xl  border-r-[2px]   border-[#0099FF] bg-[#0099FF08]"
+               >
                 <div class="flex flex-row gap-4 w-full p-2 mx-auto justify-between">
                     <span class="text-[13px] md:text-[15px] font-semibold">
                         مشتریان بدهکار
@@ -263,8 +261,8 @@
             </div>
             <!--No 6 -->
             <div
-                class="text-[#3A64D0] h-[80px]  md:h-[104px] md:w-full rounded-xl  border-r-[2px]  border-[#3A64D0] bg-[#3A64D008]" 
-                style="box-shadow: 0px 4px 4px 0px #00000040, 0 0 0 0 #3B82F6;">
+                class="text-[#3A64D0] h-[80px] shadow-xl shadow-[0px_4px_4px_0px_#00000040] card-anim  md:h-[104px] md:w-full rounded-xl  border-r-[2px]  border-[#3A64D0] bg-[#3A64D008]"
+                >
                 <div class="flex flex-row gap-4 w-full p-2 mx-auto justify-between">
                     <span class="text-[13px] md:text-[15px] font-semibold">
                         تخفیفات
@@ -301,14 +299,13 @@
             </div>
         </div>
         <!--section 2-->
-        <section class=" md:w-[1180px] m-2 md:mt-6 h-auto flex flex-col bg-white md:bg-[#F5F5F580]/50 rounded-2xl shadow-xl  p-2  items-center" style="box-shadow: 0px 4px 4px 0px #00000040, 0 0 0 0 #3B82F6;"
-            style="font-family: IRYekan;">
+        <section class="shadow-xl shadow-[0px_4px_4px_0px_#00000040] md:w-[930px] m-2 md:mt-6 h-auto flex flex-col bg-[#fafafa] rounded-2xl  p-2  items-center">
             <!--header-->
             <div class="flex flex-col md:flex-row justify-between w-full   h-[52px] mt-1">
                 <div class="hidden md:flex flex-row  gap-2 font-bold ">
                     <!--icon-->
-                    <span class="hidden md:block">
-                        <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <span class="hidden mt-1 md:block">
+                        <svg width="30" height="30" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_464_1158)">
                                 <path
                                     d="M34.4314 16.596L32.8736 23.2407C31.5383 28.9792 28.8995 31.3001 23.9398 30.8232C23.145 30.7596 22.2866 30.6166 21.3646 30.394L18.694 29.7582C12.0652 28.1844 10.0146 24.9098 11.5725 18.2651L13.1303 11.6045C13.4482 10.2533 13.8297 9.07698 14.3066 8.1073C16.1665 4.26038 19.3299 3.22712 24.6393 4.48293L27.294 5.10289C33.9545 6.66073 35.9893 9.95128 34.4314 16.596Z"
@@ -349,15 +346,15 @@
                             </defs>
                         </svg>
                     </span>
-                    <span class="text-sm md:text-[28px] md:p-2">
+                    <span class="text-sm md:text-[18px] md:p-2">
                         لیست مشتریان
                     </span>
                 </div>
                 <div class="flex flex-row gap-1 ">
                     <!--search-->
                     <div class="relative  w-[70px] h-[25px] md:w-[150px] md:h-[50px] ">
-                        <input type="text" class="w-full h-full rounded-md md:rounded-xl bg-[#0948EE14] absolute 
-                           pr-2 pb-1  text-[10px] md:text-[16px]" placeholder="جستجو">
+                        <input type="text" class="w-full h-full rounded-md md:rounded-xl bg-[#0948EE14] absolute
+                           pr-2 pb-1  text-[10px] md:text-[10px]" placeholder="جستجو">
                         <!--mobile mode-->
                         <span class="absolute md:hidden left-1 top-1.5">
                             <svg width="12" height="12" viewBox="0 0 19 19" fill="none"
@@ -448,7 +445,7 @@
                                 </defs>
                             </svg>
                         </span>
-                        <span class="text-[9px] md:text-sm ">
+                        <span class="text-[10px] md:text-[10px]">
                             فیلتر
                         </span>
                     </div>
@@ -483,7 +480,7 @@
                                 <path d="M5.8335 9.1665H8.3335" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </span>
-                        <span class="text-[8px] md:text-sm">
+                        <span class="text-[10px] md:text-[10px]">
                             چاپ کردن
                         </span>
                     </div>
@@ -532,9 +529,9 @@
                                 </defs>
                             </svg>
                         </span>
-                        <span class="text-[8px] md:text-sm pb-1">
+                        <a href="{{ route('customer') }}" class="text-[10px] md:text-[10px]">
                             اضافه کردن مشتری جدید
-                        </span>
+                        </a>
                     </div>
                 </div>
                 <!--icon-->
@@ -572,492 +569,21 @@
                 <div class="hidden md:flex text-center  text-lg " style="font-style: Regular;">
                     <table class="w-full text-center border-separate border-spacing-0">
                         <tr class="rounded-t-xl">
-                            <th class="p-4   bg-[#0948EE26]">عکس</th>
-                            <th class="p-4  bg-[#0948EE26]">نام کامل</th>
-                            <th class="p-4  bg-[#0948EE26]">شماره</th>
-                            <th class="p-4  bg-[#0948EE26]">آدرس</th>
-                            <th class="p-4  bg-[#0948EE26]">نوع مشتری</th>
-                            <th class="p-4  bg-[#0948EE26]">وضعیت</th>
-                            <th class="p-4  bg-[#0948EE26]">آیدی شناسنامه</th>
-                            <th class="p-4  bg-[#0948EE26]">ادیت</th>
-                            <th class="p-4  bg-[#0948EE26]  ">حذف</th>
+                            <th class="p-4 text-[15px]   bg-[#0948EE26]">عکس</th>
+                            <th class="p-4 text-[15px]  bg-[#0948EE26]">نام کامل</th>
+                            <th class="p-4 text-[15px]  bg-[#0948EE26]">شماره</th>
+                            <th class="p-4 text-[15px]  bg-[#0948EE26]">آدرس</th>
+                            <th class="p-4 text-[15px]  bg-[#0948EE26]">نوع مشتری</th>
+                            <th class="p-4 text-[15px]  bg-[#0948EE26]">وضعیت</th>
+                            <th class="p-4 text-[15px]  bg-[#0948EE26]">آیدی شناسنامه</th>
+                            <th class="p-4 text-[15px]  bg-[#0948EE26]">ادیت</th>
+                            <th class="p-4 text-[15px]  bg-[#0948EE26]  ">حذف</th>
                         </tr>
                         <tbody
-                            class="[&>tr:not(:last-child)>td]:border-b [&>tr:not(:last-child)>td]:border-[#0948EE] text-[13px] font-semibold">
+                            class="[&>tr:not(:last-child)>td]:border-b [&>tr:not(:last-child)>td]:border-[#0948EE] text-[13px]">
                             <tr class="pt-4 text-[13px] font-semibold">
                                 <td>
-                                    <div class="flex ">
-                                        <img src="https://i.postimg.cc/2yX17wHJ/bg.jpg"
-                                            class="w-[38px] h-[38px] m-2 rounded-md">
-                                    </div>
-                                </td>
-                                <td>
-                                    احمد عزیزی
-                                </td>
-                                <td>
-                                    0793982928
-                                </td>
-                                <td>
-                                    باغچه گلها
-                                </td>
-                                <td>
-                                    مشتری جدید
-                                </td>
-                                <td>
-                                    فعال
-                                </td>
-                                <td>
-                                    29812892
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class="pt-4 text-[13px] font-semibold">
-                                <td>
-                                    <div class="flex ">
-                                        <img src="https://i.postimg.cc/2yX17wHJ/bg.jpg"
-                                            class="w-[38px] h-[38px] m-2 rounded-md">
-                                    </div>
-                                </td>
-                                <td>
-                                    احمد عزیزی
-                                </td>
-                                <td>
-                                    0793982928
-                                </td>
-                                <td>
-                                    باغچه گلها
-                                </td>
-                                <td>
-                                    مشتری جدید
-                                </td>
-                                <td>
-                                    فعال
-                                </td>
-                                <td>
-                                    29812892
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class="pt-4 text-[13px] font-semibold">
-                                <td>
-                                    <div class="flex ">
-                                        <img src="https://i.postimg.cc/2yX17wHJ/bg.jpg"
-                                            class="w-[38px] h-[38px] m-2 rounded-md">
-                                    </div>
-                                </td>
-                                <td>
-                                    احمد عزیزی
-                                </td>
-                                <td>
-                                    0793982928
-                                </td>
-                                <td>
-                                    باغچه گلها
-                                </td>
-                                <td>
-                                    مشتری جدید
-                                </td>
-                                <td>
-                                    فعال
-                                </td>
-                                <td>
-                                    29812892
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class="pt-4 text-[13px] font-semibold">
-                                <td>
-                                    <div class="flex ">
-                                        <img src="https://i.postimg.cc/2yX17wHJ/bg.jpg"
-                                            class="w-[38px] h-[38px] m-2 rounded-md">
-                                    </div>
-                                </td>
-                                <td>
-                                    احمد عزیزی
-                                </td>
-                                <td>
-                                    0793982928
-                                </td>
-                                <td>
-                                    باغچه گلها
-                                </td>
-                                <td>
-                                    مشتری جدید
-                                </td>
-                                <td>
-                                    فعال
-                                </td>
-                                <td>
-                                    29812892
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class="pt-4 text-[13px] font-semibold">
-                                <td>
-                                    <div class="flex ">
-                                        <img src="https://i.postimg.cc/2yX17wHJ/bg.jpg"
-                                            class="w-[38px] h-[38px] m-2 rounded-md">
-                                    </div>
-                                </td>
-                                <td>
-                                    احمد عزیزی
-                                </td>
-                                <td>
-                                    0793982928
-                                </td>
-                                <td>
-                                    باغچه گلها
-                                </td>
-                                <td>
-                                    مشتری جدید
-                                </td>
-                                <td>
-                                    فعال
-                                </td>
-                                <td>
-                                    29812892
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                </td>
-                            <tr class="pt-4 text-[13px] font-semibold">
-                                <td>
-                                    <div class="flex ">
-                                        <img src="https://i.postimg.cc/2yX17wHJ/bg.jpg"
-                                            class="w-[38px] h-[38px] m-2 rounded-md">
-                                    </div>
-                                </td>
-                                <td>
-                                    احمد عزیزی
-                                </td>
-                                <td>
-                                    0793982928
-                                </td>
-                                <td>
-                                    باغچه گلها
-                                </td>
-                                <td>
-                                    مشتری جدید
-                                </td>
-                                <td>
-                                    فعال
-                                </td>
-                                <td>
-                                    29812892
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class="pt-4 text-[13px] font-semibold">
-                                <td>
-                                    <div class="flex ">
-                                        <img src="https://i.postimg.cc/2yX17wHJ/bg.jpg"
-                                            class="w-[38px] h-[38px] m-2 rounded-md">
-                                    </div>
-                                </td>
-                                <td>
-                                    احمد عزیزی
-                                </td>
-                                <td>
-                                    0793982928
-                                </td>
-                                <td>
-                                    باغچه گلها
-                                </td>
-                                <td>
-                                    مشتری جدید
-                                </td>
-                                <td>
-                                    فعال
-                                </td>
-                                <td>
-                                    29812892
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class="pt-4 text-[13px] font-semibold">
-                                <td>
-                                    <div class="flex ">
-                                        <img src="https://i.postimg.cc/2yX17wHJ/bg.jpg"
-                                            class="w-[38px] h-[38px] m-2 rounded-md">
-                                    </div>
-                                </td>
-                                <td>
-                                    احمد عزیزی
-                                </td>
-                                <td>
-                                    0793982928
-                                </td>
-                                <td>
-                                    باغچه گلها
-                                </td>
-                                <td>
-                                    مشتری جدید
-                                </td>
-                                <td>
-                                    فعال
-                                </td>
-                                <td>
-                                    29812892
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252"
-                                                stroke="#0071FF" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="flex justify-center ">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class="pt-4 text-[13px] font-semibold">
-                                <td>
-                                    <div class="flex ">
+                                    <div class="flex mr-6">
                                         <img src="https://i.postimg.cc/2yX17wHJ/bg.jpg"
                                             class="w-[38px] h-[38px] m-2 rounded-md">
                                     </div>
@@ -1143,7 +669,7 @@
                     <button class="bg-[#0948EE14] rounded-md px-2 items-center ">
                         &lt;
                     </button>
-                </div>
+            </div>
             <!--mobile mode-->
             <div class="container flex flex-col gap-2 md:hidden text-[10px] w-full bg-white" style="font-family: IRYekan;">
                 <!--line-->
@@ -1714,5 +1240,18 @@
                 </div>
             </div>
         </section>
+        <style>
+            .card-anim {
+                transition: all 0.4s ease;
+            }
+            .card-anim:hover {
+                transform: translateY(-6px) scale(1.02);
+                box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+            }
+            main{
+                overflow-x: hidden;
+            }
+        </style>
+    </main>
 </div>
 

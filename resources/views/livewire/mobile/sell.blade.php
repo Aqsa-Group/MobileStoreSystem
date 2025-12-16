@@ -2,7 +2,7 @@
     <div class="p-4">
         <!-- cards -->
         <div class="gap-4 md:gap-10 grid grid-cols-2 md:grid-cols-4 w-full">
-            <div class="bg-[#F5F5F5] rounded-xl space-y-5 h-28 p-3 border-r-2 border-[#0B35CC] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+            <div class="bg-[#0B35CC]/10 rounded-xl space-y-5 h-28 p-4  border-r-[2px]     border-[#0B35CC] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                 <div class="flex justify-between items-center">
                     <h1 class="font-bold">مفاد کل فروشات</h1>
                     <div class="bg-[#0B35CC33] rounded-full p-1">
@@ -18,7 +18,7 @@
                     <p class="text-[#0B35CC] bg-[#0B35CC33] text-[7px] p-0.5 ml-1 rounded-sm">+ 20%</p>
                 </div>
             </div>
-            <div class="bg-[#F5F5F5] rounded-xl space-y-5 h-28 p-3 border-r-2 border-[#0099FF] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+            <div class="bg-[#0099FF]/10 rounded-xl space-y-5 h-28 p-4  border-r-[2px]     border-[#0099FF] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                 <div class="flex justify-between items-center">
                     <h1 class="font-bold">کل اجناس فروخته شده</h1>
                     <div class="bg-[#0099FF33] rounded-full p-1">
@@ -34,10 +34,10 @@
                 </div>
                 <div class="flex justify-between items-center">
                     <h1 class="font-bold">750</h1>
-                    <p class="text-[#0B35CC] bg-[#0099FF33] text-[7px] p-0.5 ml-1 rounded-sm">+ 20%</p>
+                    <p class="text-[#0099FF] bg-[#0099FF33] text-[7px] p-0.5 ml-1 rounded-sm">+ 20%</p>
                 </div>
             </div>
-            <div class="bg-[#F5F5F5] rounded-xl space-y-5 h-28 p-3 border-r-2 border-[#31009B] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+            <div class="bg-[#31009B33]/10 rounded-xl space-y-5 h-28 p-4  border-r-[2px]     border-[#31009B33] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                 <div class="flex justify-between items-center">
                     <h1 class="font-bold">مبلغ فروش امروز</h1>
                     <div class="bg-[#31009B33] rounded-full p-1">
@@ -51,11 +51,11 @@
                     </div>
                 </div>
                 <div class="flex justify-between items-center">
-                    <h1 class="font-bold">75000</h1>
+                    <h1 class="font-bold">75000؋</h1>
                     <p class="text-[#31009B] bg-[#31009B33] text-[7px] p-0.5 ml-1 rounded-sm">+ 20%</p>
                 </div>
             </div>
-            <div class="bg-[#F5F5F5] rounded-xl space-y-5 h-28 p-3 border-r-2 border-[#3A64D0] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+            <div class="bg-[#3A64D0]/10 rounded-xl space-y-5 h-28 p-4 border-r-[2px]     border-[#3A64D0] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                 <div class="flex justify-between items-center">
                     <h1 class="font-bold">مبلغ فروش این ماه</h1>
                     <div class="bg-[#3A64D033] rounded-full p-1">
@@ -69,18 +69,18 @@
                     </div>
                 </div>
                 <div class="flex justify-between items-center">
-                    <h1 class="font-bold">75000</h1>
+                    <h1 class="font-bold">75000؋</h1>
                     <p class="text-[#3A64D0] bg-[#3A64D033] text-[7px] p-0.5 ml-1 rounded-sm">+ 20%</p>
                 </div>
             </div>
         </div>
         <!-- Table -->
-        <div class="bg-white mt-4 py-4 px-3 md:px-1 rounded-xl shadow-[0_0_4px_rgba(7,70,247,1)]">
+        <div class="bg-[#fafafa] mt-4 py-4 px-3 md:px-1 rounded-xl shadow-xl shadow-[0px_4px_4px_0px_#00000040]">
             <div class="">
                 <!-- Title -->
                 <div class="flex justify-between items-center pb-2 md:mb-0">
                     <div class="flex items-center">
-                        <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="25" height="25" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_464_1158)">
                                 <path d="M34.4314 16.596L32.8736 23.2407C31.5383 28.9792 28.8995 31.3001 23.9398 30.8232C23.145 30.7596 22.2866 30.6166 21.3646 30.394L18.694 29.7582C12.0652 28.1844 10.0146 24.9098 11.5725 18.2651L13.1303 11.6045C13.4482 10.2533 13.8297 9.07698 14.3066 8.1073C16.1665 4.26038 19.3299 3.22712 24.6393 4.48293L27.294 5.10289C33.9545 6.66073 35.9893 9.95128 34.4314 16.596Z" stroke="#0948EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M23.9399 30.8228C22.9543 31.4905 21.7144 32.0469 20.2043 32.5397L17.6926 33.3663C11.3818 35.401 8.05944 33.7001 6.00881 27.3892L3.97408 21.1102C1.93934 14.7993 3.62436 11.4611 9.93522 9.42633L12.4468 8.59972C13.0986 8.39307 13.7186 8.21821 14.3067 8.10693C13.8298 9.07661 13.4483 10.2529 13.1304 11.6041L11.5725 18.2647C10.0147 24.9094 12.0653 28.1841 18.6941 29.7578L21.3647 30.3936C22.2867 30.6162 23.1451 30.7593 23.9399 30.8228Z" stroke="#0948EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -93,62 +93,49 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <h1 class="font-bold text-sm md:text-xl">لیست فروشات</h1>
+                        <h1 class="font-bold text-sm md:text-[20px]">لیست فروشات</h1>
                     </div>
                     <div class="flex gap-2">
-                            <div class="relative">
-                                <input type="text" name="" id="" class="py-2 pr-2 bg-[#0948EE14] rounded-lg w-26 md:w-40 outline-none" placeholder="جستجو...">
-                                <div class="absolute top-3 left-2">
-                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M11.899 14.9749C8.8537 14.9749 6.38498 12.5062 6.38498 9.46083C6.38498 6.4155 8.8537 3.94678 11.899 3.94678C14.9444 3.94678 17.4131 6.4155 17.4131 9.46083C17.4131 12.5062 14.9444 14.9749 11.899 14.9749Z" stroke="#3A64D0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M5.80448 15.5554L6.96533 14.3945" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="bg-[#0948EE14] p-2 text-[4px] rounded-lg text- flex items-center cursor-pointer">
-                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_464_1127)">
-                                        <path d="M10.73 12.424V6.21191" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M10.73 3.95309V1.12939" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M6.77686 12.4243V9.60059" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M6.77686 7.34153V1.12939" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M2.82373 12.424V6.21191" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M2.82373 3.95309V1.12939" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M1.69434 6.21191H3.95329" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M9.60059 6.21191H11.8595" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M5.64746 7.3418H7.90642" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_464_1127">
-                                            <rect width="13.5537" height="13.5537" fill="white"/>
-                                        </clipPath>
-                                    </defs>
+                        <!-- فیلتر -->
+                        <div class="relative mb-1">
+                            <span class="absolute right-2 top-1.5 text-gray-200 mt-1">
+                                <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1047_2643)">
+                                <path d="M10.2915 12.8337V6.41699" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.2915 4.08366V1.16699" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6.5 12.8337V9.91699" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6.5 7.58366V1.16699" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2.7085 12.8337V6.41699" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2.7085 4.08366V1.16699" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1.625 6.41699H3.79167" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.2085 6.41699H11.3752" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.4165 7.58301H7.58317" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1047_2643">
+                                <rect width="13" height="14" fill="white"/>
+                                </clipPath>
+                                </defs>
                                 </svg>
-                                <p class="md:flex hidden text-xs">فیلتر</p>
-                            </div>
-                            <div class="bg-[#0948EE] text-white p-2 rounded-lg flex gap-1 items-center cursor-pointer">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_464_1107)">
-                                        <path d="M7.52977 13.8047C10.981 13.8047 13.8047 10.981 13.8047 7.52977C13.8047 4.07858 10.981 1.25488 7.52977 1.25488C4.07858 1.25488 1.25488 4.07858 1.25488 7.52977C1.25488 10.981 4.07858 13.8047 7.52977 13.8047Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M5.02002 7.52979H10.0399" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M7.52979 10.0399V5.02002" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_464_1107">
-                                            <rect width="15.0597" height="15.0597" fill="white"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <p class="hidden md:flex text-xs">اضافه کردن فاکتور جدید</p>
-                            </div>
+
+                            </span>
+                            <input type="text" class="p-2 pr-8 w-[100px] text-[13px] bg-[#0B35CC]/20 rounded-xl" placeholder="فیلتر">
                         </div>
-                    </div>    
+                        <!-- جستجو -->
+                        <div class="relative mb-1">
+                            <input type="text" class="p-2 w-[170px] text-[13px]  bg-[#0B35CC]/20  rounded-xl" placeholder="جستجو....">
+                            <span class="absolute left-1 top-1.5 mt-1 text-gray-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.6" stroke="currentColor" class="w-4 h-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M10.5 18a7.5 7.5 0 100-15 7.5 7.5 0 000 15z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
                 </div>
-                    
                 <!-- Table -->
                 <div class="">
                     <div class="rounded-lg border border-[#0948EE] mt-3">
-                        <div class="hidden md:grid grid-cols-16 items-center bg-gray-200 mb-1 py-4">
+                        <div class="hidden md:grid grid-cols-16 items-center bg-[#0B35CC]/20  mb-1 py-4">
                             <div class="col-span-2 text-center"><p class="font-bold">آیدی فاکتور</p></div>
                             <div class="text-center"><p class="font-bold">عکس</p></div>
                             <div class="col-span-2 text-center"><p class="font-bold">مدل دستگاه</p></div>
@@ -174,7 +161,7 @@
                                 <div class="text-center">
                                     <h1 class="text-[#00000080] block md:hidden">تاریخ فروش</h1>
                                     <p class="text-sm">1404/4/20</p>
-                                </div>    
+                                </div>
                             </div>
                             <div class="col-span-4 grid grid-cols-2 my-3 md:my-0">
                                 <div class="text-center">
@@ -187,18 +174,18 @@
                                 </div>
                             </div>
                             <div class="col-span-3 my-5 md:my-0 md:px-0">
-                                <div class="mx-auto w-20 flex items-center justify-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                <div class="mx-auto w-20 flex items-center justify-center border border-[#505B83] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M26.875 15.4165V20.6248C26.875 22.7082 25.8333 23.7498 23.75 23.7498H21.6667V20.6248H13.3333V23.7498H11.25C9.16667 23.7498 8.125 22.7082 8.125 20.6248V15.4165C8.125 13.3332 9.16667 12.2915 11.25 12.2915H23.75C25.8333 12.2915 26.875 13.3332 26.875 15.4165Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M22.7082 20.625H21.4478H12.2915" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12.2915 16.4585H15.4165" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M26.875 15.4165V20.6248C26.875 22.7082 25.8333 23.7498 23.75 23.7498H21.6667V20.6248H13.3333V23.7498H11.25C9.16667 23.7498 8.125 22.7082 8.125 20.6248V15.4165C8.125 13.3332 9.16667 12.2915 11.25 12.2915H23.75C25.8333 12.2915 26.875 13.3332 26.875 15.4165Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M22.7082 20.625H21.4478H12.2915" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.2915 16.4585H15.4165" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
-                                    <p class="text-[#B300FF] block md:hidden">چاپ</p>
-                                </div> 
+                                    <p class="text-[#505B83] block md:hidden">چاپ</p>
+                                </div>
                             </div>
-                            
+
                         </div>
 
                         <div class="md:grid grid-cols-16 items-center mt-3 md:mt-0 py-4 border-b border-dotted border-[#0948EE]">
@@ -216,7 +203,7 @@
                                 <div class="text-center">
                                     <h1 class="text-[#00000080] block md:hidden">تاریخ فروش</h1>
                                     <p class="text-sm">1404/4/20</p>
-                                </div>    
+                                </div>
                             </div>
                             <div class="col-span-4 grid grid-cols-2 my-3 md:my-0">
                                 <div class="text-center">
@@ -229,18 +216,18 @@
                                 </div>
                             </div>
                             <div class="col-span-3 my-5 md:my-0 md:px-0">
-                                <div class="mx-auto w-20 flex items-center justify-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                <div class="mx-auto w-20 flex items-center justify-center border border-[#505B83] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M26.875 15.4165V20.6248C26.875 22.7082 25.8333 23.7498 23.75 23.7498H21.6667V20.6248H13.3333V23.7498H11.25C9.16667 23.7498 8.125 22.7082 8.125 20.6248V15.4165C8.125 13.3332 9.16667 12.2915 11.25 12.2915H23.75C25.8333 12.2915 26.875 13.3332 26.875 15.4165Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M22.7082 20.625H21.4478H12.2915" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12.2915 16.4585H15.4165" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M26.875 15.4165V20.6248C26.875 22.7082 25.8333 23.7498 23.75 23.7498H21.6667V20.6248H13.3333V23.7498H11.25C9.16667 23.7498 8.125 22.7082 8.125 20.6248V15.4165C8.125 13.3332 9.16667 12.2915 11.25 12.2915H23.75C25.8333 12.2915 26.875 13.3332 26.875 15.4165Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M22.7082 20.625H21.4478H12.2915" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.2915 16.4585H15.4165" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
-                                    <p class="text-[#B300FF] block md:hidden">چاپ</p>
-                                </div> 
+                                    <p class="text-[#505B83] block md:hidden">چاپ</p>
+                                </div>
                             </div>
-                            
+
                         </div>
 
                         <div class="md:grid grid-cols-16 items-center mt-3 md:mt-0 py-4 border-b border-dotted border-[#0948EE]">
@@ -258,7 +245,7 @@
                                 <div class="text-center">
                                     <h1 class="text-[#00000080] block md:hidden">تاریخ فروش</h1>
                                     <p class="text-sm">1404/4/20</p>
-                                </div>    
+                                </div>
                             </div>
                             <div class="col-span-4 grid grid-cols-2 my-3 md:my-0">
                                 <div class="text-center">
@@ -271,19 +258,19 @@
                                 </div>
                             </div>
                             <div class="col-span-3 my-5 md:my-0 md:px-0">
-                                <div class="mx-auto w-20 flex items-center justify-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                <div class="mx-auto w-20 flex items-center justify-center border border-[#505B83] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M26.875 15.4165V20.6248C26.875 22.7082 25.8333 23.7498 23.75 23.7498H21.6667V20.6248H13.3333V23.7498H11.25C9.16667 23.7498 8.125 22.7082 8.125 20.6248V15.4165C8.125 13.3332 9.16667 12.2915 11.25 12.2915H23.75C25.8333 12.2915 26.875 13.3332 26.875 15.4165Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M22.7082 20.625H21.4478H12.2915" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12.2915 16.4585H15.4165" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M26.875 15.4165V20.6248C26.875 22.7082 25.8333 23.7498 23.75 23.7498H21.6667V20.6248H13.3333V23.7498H11.25C9.16667 23.7498 8.125 22.7082 8.125 20.6248V15.4165C8.125 13.3332 9.16667 12.2915 11.25 12.2915H23.75C25.8333 12.2915 26.875 13.3332 26.875 15.4165Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M22.7082 20.625H21.4478H12.2915" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.2915 16.4585H15.4165" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
-                                    <p class="text-[#B300FF] block md:hidden">چاپ</p>
-                                </div> 
+                                    <p class="text-[#505B83] block md:hidden">چاپ</p>
+                                </div>
                             </div>
-                            
-                        </div> 
+
+                        </div>
 
                         <div class="md:grid grid-cols-16 items-center mt-3 md:mt-0 py-4 border-b border-dotted border-[#0948EE]">
                             <div class="col-span-2 text-center"><p class="text-sm">1</p></div>
@@ -300,7 +287,7 @@
                                 <div class="text-center">
                                     <h1 class="text-[#00000080] block md:hidden">تاریخ فروش</h1>
                                     <p class="text-sm">1404/4/20</p>
-                                </div>    
+                                </div>
                             </div>
                             <div class="col-span-4 grid grid-cols-2 my-3 md:my-0">
                                 <div class="text-center">
@@ -313,18 +300,18 @@
                                 </div>
                             </div>
                             <div class="col-span-3 my-5 md:my-0 md:px-0">
-                                <div class="mx-auto w-20 flex items-center justify-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                <div class="mx-auto w-20 flex items-center justify-center border border-[#505B83] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M26.875 15.4165V20.6248C26.875 22.7082 25.8333 23.7498 23.75 23.7498H21.6667V20.6248H13.3333V23.7498H11.25C9.16667 23.7498 8.125 22.7082 8.125 20.6248V15.4165C8.125 13.3332 9.16667 12.2915 11.25 12.2915H23.75C25.8333 12.2915 26.875 13.3332 26.875 15.4165Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M22.7082 20.625H21.4478H12.2915" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12.2915 16.4585H15.4165" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M26.875 15.4165V20.6248C26.875 22.7082 25.8333 23.7498 23.75 23.7498H21.6667V20.6248H13.3333V23.7498H11.25C9.16667 23.7498 8.125 22.7082 8.125 20.6248V15.4165C8.125 13.3332 9.16667 12.2915 11.25 12.2915H23.75C25.8333 12.2915 26.875 13.3332 26.875 15.4165Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M22.7082 20.625H21.4478H12.2915" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.2915 16.4585H15.4165" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
-                                    <p class="text-[#B300FF] block md:hidden">چاپ</p>
-                                </div> 
+                                    <p class="text-[#505B83] block md:hidden">چاپ</p>
+                                </div>
                             </div>
-                            
+
                         </div>
 
                         <div class="md:grid grid-cols-16 items-center mt-3 md:mt-0 py-4">
@@ -342,7 +329,7 @@
                                 <div class="text-center">
                                     <h1 class="text-[#00000080] block md:hidden">تاریخ فروش</h1>
                                     <p class="text-sm">1404/4/20</p>
-                                </div>    
+                                </div>
                             </div>
                             <div class="col-span-4 grid grid-cols-2 my-3 md:my-0">
                                 <div class="text-center">
@@ -355,21 +342,21 @@
                                 </div>
                             </div>
                             <div class="col-span-3 my-5 md:my-0 md:px-0">
-                                <div class="mx-auto w-20 flex items-center justify-center border border-[#B300FF] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                <div class="mx-auto w-20 flex items-center justify-center border border-[#505B83] cursor-pointer md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M26.875 15.4165V20.6248C26.875 22.7082 25.8333 23.7498 23.75 23.7498H21.6667V20.6248H13.3333V23.7498H11.25C9.16667 23.7498 8.125 22.7082 8.125 20.6248V15.4165C8.125 13.3332 9.16667 12.2915 11.25 12.2915H23.75C25.8333 12.2915 26.875 13.3332 26.875 15.4165Z" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M22.7082 20.625H21.4478H12.2915" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12.2915 16.4585H15.4165" stroke="#B300FF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5522 12.2918H22.4481V10.2085C22.4481 8.12516 21.6668 7.0835 19.3231 7.0835H15.6772C13.3335 7.0835 12.5522 8.12516 12.5522 10.2085V12.2918Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21.6668 20.625V24.7917C21.6668 26.875 20.6252 27.9167 18.5418 27.9167H16.4585C14.3752 27.9167 13.3335 26.875 13.3335 24.7917V20.625H21.6668Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M26.875 15.4165V20.6248C26.875 22.7082 25.8333 23.7498 23.75 23.7498H21.6667V20.6248H13.3333V23.7498H11.25C9.16667 23.7498 8.125 22.7082 8.125 20.6248V15.4165C8.125 13.3332 9.16667 12.2915 11.25 12.2915H23.75C25.8333 12.2915 26.875 13.3332 26.875 15.4165Z" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M22.7082 20.625H21.4478H12.2915" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.2915 16.4585H15.4165" stroke="#505B83" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
-                                    <p class="text-[#B300FF] block md:hidden">چاپ</p>
-                                </div> 
+                                    <p class="text-[#505B83] block md:hidden">چاپ</p>
+                                </div>
                             </div>
-                            
-                        </div>     
+
+                        </div>
                     </div>
-                    
+
                     <!-- pagination -->
                     <div class="pagination mt-6 mb-3 mr-4" dir="rtl">
                         <a class="py-2 px-2 rounded-lg bg-[#0948EE14]" href="#">&#60;</a>
@@ -379,8 +366,8 @@
                         <a class="py-2 px-2 rounded-lg bg-[#0948EE14]" href="#">2</a>
                         <a class="text-[#000000] border border-[#0800FF] py-2 px-2 rounded-lg" href="#">1</a>
                         <a class="py-2 px-2 rounded-lg bg-[#0948EE14]" href="#">&#62;</a>
-                    </div>    
-                </div> 
+                    </div>
+                </div>
             </div>
         </div>
     </div>

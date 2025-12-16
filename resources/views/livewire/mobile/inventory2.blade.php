@@ -2,7 +2,7 @@
     <main>
         <div class="p-4">
             <!-- Product registration -->
-            <div class="rounded-xl shadow-[0_0_4px_rgba(7,70,247,1)] bg-[#F5F5F580] w-full px-2 py-4">
+            <div class="rounded-xl shadow-xl shadow-[0px_4px_4px_0px_#00000040] bg-[#fafafa] w-full px-2 py-4">
                 <div class="">
                     <div class="flex items-center justify-start">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -17,7 +17,7 @@
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-4 mt-4 gap-2">
                         <div class="relative">
-                            <h1>بارکد محصول(اختیاری):</h1>    
+                            <h1>بارکد محصول(اختیاری):</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="در صورت خالی بودن خودکار ایجاد میشود.">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,22 +26,22 @@
                                     <path d="M21.9998 9.42075V14.9707C21.9798 17.1907 21.3698 17.7407 19.0598 17.7407H11.7398C9.38981 17.7407 8.7998 17.1507 8.7998 14.8407V9.41074C8.7998 7.31074 9.27981 6.64072 11.1298 6.52072C11.3198 6.52072 11.5198 6.51074 11.7398 6.51074H19.0598C21.4098 6.52074 21.9998 7.10075 21.9998 9.42075Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M11.3198 15.2607H12.6498" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M14.75 15.2607H18.02" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>        
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>نام جنس:</h1>    
+                            <h1>نام جنس:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="نام کامل جنس">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M16 2H8C4 2 2 4 2 8V21C2 21.55 2.45 22 3 22H16C20 22 22 20 22 16V8C22 4 20 2 16 2Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M12.9098 7.84015L7.71979 13.0302C7.51979 13.2302 7.3298 13.6202 7.2898 13.9002L7.0098 15.8802C6.9098 16.6002 7.40979 17.1002 8.12979 17.0002L10.1098 16.7202C10.3898 16.6802 10.7798 16.4902 10.9798 16.2902L16.1698 11.1002C17.0598 10.2102 17.4898 9.17015 16.1698 7.85015C14.8498 6.52015 13.8098 6.94015 12.9098 7.84015Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M12.1699 8.58008C12.6099 10.1501 13.8399 11.3901 15.4199 11.8301" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>        
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>قیمت خرید هر کارتن:</h1>    
+                            <h1>قیمت خرید هر کارتن:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="75,000؋">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,11 +53,11 @@
                                     <path d="M2.3501 15.4502L6.3201 17.7502L10.2701 15.4602" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M6.32031 21.8203V17.7402" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M5.39 13.21L2.99001 14.54C2.45001 14.84 2 15.5999 2 16.2199V18.76C2 19.38 2.44001 20.14 2.99001 20.44L5.39 21.77C5.9 22.06 6.73999 22.06 7.25999 21.77L9.66 20.44C10.2 20.14 10.65 19.38 10.65 18.76V16.2199C10.65 15.5999 10.21 14.84 9.66 14.54L7.25999 13.21C6.73999 12.93 5.9 12.93 5.39 13.21Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>       
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>قیمت خرید هر محصول:</h1>    
+                            <h1>قیمت خرید هر محصول:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="75,000؋">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -66,19 +66,19 @@
                                     <path d="M6.7002 9.25977L12.0002 12.3298L17.2602 9.27979" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M12 17.7693V12.3193" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M10.7602 6.28957L7.56023 8.0696C6.84023 8.4696 6.24023 9.47959 6.24023 10.3096V13.6996C6.24023 14.5296 6.83023 15.5396 7.56023 15.9396L10.7602 17.7196C11.4402 18.0996 12.5602 18.0996 13.2502 17.7196L16.4502 15.9396C17.1702 15.5396 17.7702 14.5296 17.7702 13.6996V10.3096C17.7702 9.47959 17.1802 8.4696 16.4502 8.0696L13.2502 6.28957C12.5602 5.89957 11.4402 5.89957 10.7602 6.28957Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>       
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>کتگوری:</h1> 
+                            <h1>کتگوری:</h1>
                             <select name="" id="" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1">
                                 <option value="">انتخاب کتگوری</option>
                                 <option value="">کتگوری1</option>
                                 <option value="">کتگوری2</option>
-                            </select> 
+                            </select>
                         </div>
                         <div class="relative">
-                            <h1>شرکت:</h1>    
+                            <h1>شرکت:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="نام شرکت">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -89,11 +89,11 @@
                                     <path d="M17 17H15C14.45 17 14 17.45 14 18V22H18V18C18 17.45 17.55 17 17 17Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M6 13V17" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M10 19V5C10 3 11 2 13 2H19C21 2 22 3 22 5V19C22 21 21 22 19 22H13C11 22 10 21 10 19Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>       
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>مبلغ کل خرید:</h1>    
+                            <h1>مبلغ کل خرید:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="75,000؋">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,11 +103,11 @@
                                     <path d="M22 9H21C18 9 17 8 17 5V4" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M2 15H3C6 15 7 16 7 19V20" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M22 15H21C18 15 17 16 17 19V20" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>      
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>مبلغ رسید:</h1>    
+                            <h1>مبلغ رسید:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="75,000؋">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -115,19 +115,19 @@
                                     <path d="M22 10H18C15 10 14 9 14 6V2L22 10Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M7 13H13" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M7 17H11" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>       
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>نوع بسته بندی:</h1> 
+                            <h1>نوع بسته بندی:</h1>
                             <select name="" id="" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1">
                                 <option value="">کارتن</option>
                                 <option value="">1کارتن</option>
                                 <option value="">1کارتن</option>
-                            </select> 
+                            </select>
                         </div>
                         <div class="relative">
-                            <h1>تعداد در هر کارتن:</h1>    
+                            <h1>تعداد در هر کارتن:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="1">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -135,33 +135,33 @@
                                     <path d="M6.7002 9.25977L12.0002 12.3298L17.2602 9.27976" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M12 17.7693V12.3193" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M10.7603 6.28986L7.56024 8.06986C6.84024 8.46986 6.24023 9.47985 6.24023 10.3099V13.6999C6.24023 14.5299 6.83024 15.5399 7.56024 15.9399L10.7603 17.7199C11.4403 18.0999 12.5602 18.0999 13.2502 17.7199L16.4503 15.9399C17.1703 15.5399 17.7702 14.5299 17.7702 13.6999V10.2999C17.7702 9.46986 17.1803 8.45985 16.4503 8.05985L13.2502 6.27985C12.5602 5.89985 11.4403 5.89986 10.7603 6.28986Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>        
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>قیمت فروش پرچون هر:</h1>    
+                            <h1>قیمت فروش پرچون هر:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="75,000؋">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.67188 14.3298C8.67188 15.6198 9.66188 16.6598 10.8919 16.6598H13.4019C14.4719 16.6598 15.3419 15.7498 15.3419 14.6298C15.3419 13.4098 14.8119 12.9798 14.0219 12.6998L9.99187 11.2998C9.20187 11.0198 8.67188 10.5898 8.67188 9.36984C8.67188 8.24984 9.54187 7.33984 10.6119 7.33984H13.1219C14.3519 7.33984 15.3419 8.37984 15.3419 9.66984" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M12 6V18" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M15 22H9C4 22 2 20 2 15V9C2 4 4 2 9 2H15C20 2 22 4 22 9V15C22 20 20 22 15 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>    
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>قیمت فروش عمده هر:</h1>    
+                            <h1>قیمت فروش عمده هر:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="75,000؋">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.67188 14.3298C8.67188 15.6198 9.66188 16.6598 10.8919 16.6598H13.4019C14.4719 16.6598 15.3419 15.7498 15.3419 14.6298C15.3419 13.4098 14.8119 12.9798 14.0219 12.6998L9.99187 11.2998C9.20187 11.0198 8.67188 10.5898 8.67188 9.36984C8.67188 8.24984 9.54187 7.33984 10.6119 7.33984H13.1219C14.3519 7.33984 15.3419 8.37984 15.3419 9.66984" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M12 6V18" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg> 
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>تعداد کارتن:</h1>    
+                            <h1>تعداد کارتن:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="30">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,22 +169,22 @@
                                     <path d="M12 21.61V12.54" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M9.93011 2.48L4.59012 5.45003C3.38012 6.12003 2.39014 7.80001 2.39014 9.18001V14.83C2.39014 16.21 3.38012 17.89 4.59012 18.56L9.93011 21.53C11.0701 22.16 12.9401 22.16 14.0801 21.53L19.4201 18.56C20.6301 17.89 21.6201 16.21 21.6201 14.83V9.18001C21.6201 7.80001 20.6301 6.12003 19.4201 5.45003L14.0801 2.48C12.9301 1.84 11.0701 1.84 9.93011 2.48Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M16.9998 13.2396V9.57965L7.50977 4.09961" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>  
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>موجودی کل:</h1>    
+                            <h1>موجودی کل:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="30">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M3.16992 7.44043L11.9999 12.5504L20.7699 7.47043" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M12 21.61V12.54" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M9.93014 2.48028L4.59014 5.44028C3.38014 6.11028 2.39014 7.79028 2.39014 9.17028V14.8203C2.39014 16.2003 3.38014 17.8803 4.59014 18.5503L9.93014 21.5203C11.0701 22.1503 12.9401 22.1503 14.0801 21.5203L19.4201 18.5503C20.6301 17.8803 21.6201 16.2003 21.6201 14.8203V9.17028C21.6201 7.79028 20.6301 6.11028 19.4201 5.44028L14.0801 2.47028C12.9301 1.84028 11.0701 1.84028 9.93014 2.48028Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>    
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>فایده هر:</h1>    
+                            <h1>فایده هر:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="75,000؋">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -193,11 +193,11 @@
                                     <path d="M22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M17 3V7H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M22 2L17 7" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>  
+                                </svg>
                             </div>
                         </div>
                          <div class="relative">
-                            <h1>فایده کل:</h1>    
+                            <h1>فایده کل:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="75,000؋">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -210,7 +210,7 @@
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>کشور سازنده:</h1>    
+                            <h1>کشور سازنده:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="آلمان">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -222,11 +222,11 @@
                                     <path d="M7.99023 12V22" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
                                     <path d="M11.9902 12V22" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
                                     <path d="M15.9902 12V22" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
-                                </svg>   
+                                </svg>
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>سال تولید:</h1>    
+                            <h1>سال تولید:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="2012">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -239,7 +239,7 @@
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>مبلغ الباقی:</h1>    
+                            <h1>مبلغ الباقی:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="75,000؋">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -252,23 +252,23 @@
                             </div>
                         </div>
                         <div class="relative">
-                            <h1>آپلود عکس محصول:</h1>    
+                            <h1>آپلود عکس محصول:</h1>
                             <input type="text" class="w-full text-xs outline-none border border-gray-500 rounded-lg pl-8 py-4 px-1 mt-1" placeholder="75,000؋">
                             <div class="absolute left-2 top-10">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M9 10C10.1046 10 11 9.10457 11 8C11 6.89543 10.1046 6 9 6C7.89543 6 7 6.89543 7 8C7 9.10457 7.89543 10 9 10Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M2.66992 18.9496L7.59992 15.6396C8.38992 15.1096 9.52992 15.1696 10.2399 15.7796L10.5699 16.0696C11.3499 16.7396 12.6099 16.7396 13.3899 16.0696L17.5499 12.4996C18.3299 11.8296 19.5899 11.8296 20.3699 12.4996L21.9999 13.8996" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>    
+                                </svg>
                             </div>
                         </div>
                     </div>
                     <input type="submit" class="w-full bg-[#0948EE] text-white mt-2 rounded-lg py-2 font-bold text-xl cursor-pointer" value="ثبت محصول جدید">
-                </div>    
+                </div>
             </div>
-            
+
             <div class="">
-                <div class="bg-white mt-3 py-4 px-3 md:px-2 rounded-xl shadow-[0_0_4px_rgba(7,70,247,1)]">
+                <div class="bg-[#fafafa] mt-3 py-4 px-3 md:px-2 rounded-xl shadow-xl shadow-[0px_4px_4px_0px_#00000040]">
                     <div class="">
                         <!-- Title -->
                         <div class="flex justify-between items-center border-b border-dotted border-[#0948EE] md:border-none pb-2 md:mb-0">
@@ -319,11 +319,11 @@
                                         </svg>
                                     </div>
                                 </div>
-                            </div>    
+                            </div>
                         </div>
                         <!-- Table -->
                         <div class="rounded-lg border border-[#0948EE]">
-                            <div class="hidden md:grid grid-cols-24 items-center bg-gray-200 mb-1 px-2 py-4">
+                            <div class="hidden md:grid grid-cols-24 items-center bg-[#0948EE14] mb-1 px-2 py-4">
                                 <div class="text-center"><p class="font-bold">شماره</p></div>
                                 <div class="col-span-2 text-center"><p class="font-bold">بارکد</p></div>
                                 <div class="col-span-2 text-center"><p class="font-bold">نام دستگاه</p></div>
@@ -354,7 +354,7 @@
                                     <div class="text-center">
                                         <h1 class="text-[#00000080] block md:hidden">شرکت:</h1>
                                         <p class="text-sm">مطمین مبایل</p>
-                                    </div>   
+                                    </div>
                                 </div>
                                 <div class="col-span-6 grid grid-cols-3 my-3 md:my-0">
                                     <div class="text-center">
@@ -404,10 +404,10 @@
                                             <path d="M18.8499 9.13965L18.1999 19.2096C18.0899 20.7796 17.9999 21.9996 15.2099 21.9996H8.7899C5.9999 21.9996 5.9099 20.7796 5.7999 19.2096L5.1499 9.13965" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>   
+                                        </svg>
                                         <p class="text-[#FF0000] block md:hidden">حذف</p>
                                     </div>
-                                </div>    
+                                </div>
                             </div>
 
                             <div class="md:grid grid-cols-24 items-center mt-3 md:mt-0 py-3 border-b border-dotted border-[#0948EE]">
@@ -425,7 +425,7 @@
                                     <div class="text-center">
                                         <h1 class="text-[#00000080] block md:hidden">شرکت:</h1>
                                         <p class="text-sm">مطمین مبایل</p>
-                                    </div>   
+                                    </div>
                                 </div>
                                 <div class="col-span-6 grid grid-cols-3 my-3 md:my-0">
                                     <div class="text-center">
@@ -475,10 +475,10 @@
                                             <path d="M18.8499 9.13965L18.1999 19.2096C18.0899 20.7796 17.9999 21.9996 15.2099 21.9996H8.7899C5.9999 21.9996 5.9099 20.7796 5.7999 19.2096L5.1499 9.13965" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>   
+                                        </svg>
                                         <p class="text-[#FF0000] block md:hidden">حذف</p>
                                     </div>
-                                </div>            
+                                </div>
                             </div>
 
                             <div class="md:grid grid-cols-24 items-center mt-3 md:mt-0 py-3">
@@ -496,7 +496,7 @@
                                     <div class="text-center">
                                         <h1 class="text-[#00000080] block md:hidden">شرکت:</h1>
                                         <p class="text-sm">مطمین مبایل</p>
-                                    </div>   
+                                    </div>
                                 </div>
                                 <div class="col-span-6 grid grid-cols-3 my-3 md:my-0">
                                     <div class="text-center">
@@ -546,13 +546,13 @@
                                             <path d="M18.8499 9.13965L18.1999 19.2096C18.0899 20.7796 17.9999 21.9996 15.2099 21.9996H8.7899C5.9999 21.9996 5.9099 20.7796 5.7999 19.2096L5.1499 9.13965" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>   
+                                        </svg>
                                         <p class="text-[#FF0000] block md:hidden">حذف</p>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                         </div>
-                        
+
                         <!-- Pagination -->
                         <div class="pagination mt-5 mr-4" dir="rtl">
                             <a class=" px-1 rounded-lg bg-[#0948EE14]" href="#">&#60;</a>
@@ -564,7 +564,7 @@
                             <a class=" px-1 rounded-lg bg-[#0948EE14]" href="#">&#62;</a>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
     </main>

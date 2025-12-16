@@ -3,7 +3,7 @@
         <!-- Cards -->
         <div class="gap-4 grid grid-cols-1 md:grid-cols-4 w-full">
             <div class="flex flex-row md:flex-col gap-6">
-                <div class="bg-[#F5F5F5] w-full md:w-80 mx-auto rounded-xl space-y-3 p-3 border-r-2 border-[#0B35CC] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+                <div class="bg-[#0B35CC]/10 w-full md:w-50 mx-auto rounded-xl space-y-3 p-3 border-r-[2px]  border-[#0B35CC] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                     <div class="flex justify-between items-center">
                         <h1 class="font-bold">کل معاش سالانه</h1>
                         <div class="bg-[#0B35CC33] rounded-full p-1">
@@ -23,7 +23,7 @@
                         <h1 class="text-xs">معاش سالانه کارمند</h1>
                     </div>
                 </div>
-                <div class="bg-[#F5F5F5] w-full md:w-80 mx-auto rounded-xl space-y-3 p-3 border-r-2 border-[#0066E4] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+                <div class="bg-[#0066E4]/10 w-full md:w-50 mx-auto rounded-xl space-y-3 p-3 border-r-[2px]  border-[#0066E4] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                     <div class="flex justify-between items-center">
                         <h1 class="font-bold">معاش ماهانه</h1>
                         <div class="bg-[#0066E433] rounded-full p-1">
@@ -40,10 +40,10 @@
                         <h1 class="font-bold">75,000؋</h1>
                         <h1 class="text-xs">معاش ماهوار کارمند</h1>
                     </div>
-                </div>    
+                </div>
             </div>
             <div class="flex flex-row md:flex-col gap-6">
-                <div class="bg-[#F5F5F5] w-full md:w-80 mx-auto rounded-xl space-y-3 p-3 border-r-2 border-[#0099FF] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+                <div class="bg-[#0099FF]/10 w-full md:w-50 mx-auto rounded-xl space-y-3 p-3 border-r-[2px]  border-[#0099FF] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                     <div class="flex justify-between items-center">
                         <h1 class="font-bold">کل مبلغ پرداختی</h1>
                         <div class="bg-[#0099FF33] rounded-full p-1">
@@ -59,8 +59,8 @@
                         <h1 class="font-bold">75,000؋</h1>
                         <h1 class="text-xs">کل پرداخت انجام شده</h1>
                     </div>
-                </div> 
-                <div class="bg-[#F5F5F5] w-full md:w-80 mx-auto rounded-xl space-y-3 p-3 border-r-2 border-[#00DFAE] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+                </div>
+                <div class="bg-[#00DFAE]/10 w-full md:w-50 mx-auto rounded-xl space-y-3 p-3 border-r-[2px]  border-[#00DFAE] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                     <div class="flex justify-between items-center">
                         <h1 class="font-bold">پرداختی 30گذشته</h1>
                         <div class="bg-[#00DFAE33] rounded-full p-1">
@@ -76,12 +76,12 @@
                         <h1 class="font-bold">75,000؋</h1>
                         <h1 class="text-xs">پرداختی 30روز گذشته</h1>
                     </div>
-                </div>   
+                </div>
             </div>
             <div class="flex flex-row md:flex-col gap-6">
-                <div class="bg-[#F5F5F5] w-full md:w-80 mx-auto rounded-xl space-y-3 p-3 border-r-2 border-[#31009B] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+                <div class="bg-[#31009B]/10 w-full md:w-50 mx-auto rounded-xl space-y-3 p-3 border-r-[2px]  border-[#31009B] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                     <div class="flex justify-between items-center">
-                        <h1 class="font-bold">مانده معاش ماهانه</h1>
+                        <h1 class="font-bold">مانده معاش سالانه</h1>
                         <div class="bg-[#31009B33] rounded-full p-1">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M13 11.1504H7" stroke="#31009B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -96,14 +96,14 @@
                         <h1 class="text-xs">مبلغ باقی مانده برای پرداخت</h1>
                     </div>
                 </div>
-                <div class="bg-[#F5F5F5] w-full md:w-80 mx-auto rounded-xl space-y-3 p-3 border-r-2 border-[#009B10] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+                <div class="bg-[#009B10]/10 w-full md:w-50 mx-auto rounded-xl space-y-3 p-3 border-r-[2px]  border-[#009B10] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                     <div class="flex justify-between items-center">
                         <h1 class="font-bold">مانده معاش ماهانه</h1>
-                        <div class="bg-[#009B1033] rounded-full p-1">
+                        <div class="bg-[#009B10]/10 rounded-full p-1">
                             <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8.31055 12.5386C8.31055 13.6674 9.2593 14.5774 10.438 14.5774H12.8435C13.8689 14.5774 14.7026 13.7811 14.7026 12.8011C14.7026 11.7336 14.1947 11.3574 13.4376 11.1124L9.57555 9.88736C8.81846 9.64236 8.31055 9.26611 8.31055 8.19861C8.31055 7.21861 9.1443 6.42236 10.1697 6.42236H12.5751C13.7539 6.42236 14.7026 7.33236 14.7026 8.46111" stroke="#0B35CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M11.5 5.25V15.75" stroke="#0B35CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M14.3751 19.25H8.62508C3.83341 19.25 1.91675 17.5 1.91675 13.125V7.875C1.91675 3.5 3.83341 1.75 8.62508 1.75H14.3751C19.1667 1.75 21.0834 3.5 21.0834 7.875V13.125C21.0834 17.5 19.1667 19.25 14.3751 19.25Z" stroke="#0B35CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.31055 12.5386C8.31055 13.6674 9.2593 14.5774 10.438 14.5774H12.8435C13.8689 14.5774 14.7026 13.7811 14.7026 12.8011C14.7026 11.7336 14.1947 11.3574 13.4376 11.1124L9.57555 9.88736C8.81846 9.64236 8.31055 9.26611 8.31055 8.19861C8.31055 7.21861 9.1443 6.42236 10.1697 6.42236H12.5751C13.7539 6.42236 14.7026 7.33236 14.7026 8.46111" stroke="#009B10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.5 5.25V15.75" stroke="#009B10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14.3751 19.25H8.62508C3.83341 19.25 1.91675 17.5 1.91675 13.125V7.875C1.91675 3.5 3.83341 1.75 8.62508 1.75H14.3751C19.1667 1.75 21.0834 3.5 21.0834 7.875V13.125C21.0834 17.5 19.1667 19.25 14.3751 19.25Z" stroke="#009B10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                 </div>
             </div>
             <div class="flex flex-row md:flex-col gap-6">
-                <div class="bg-[#F5F5F5] w-full md:w-80 mx-auto rounded-xl space-y-3 p-3 border-r-2 border-[#3A64D0] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+                <div class="bg-[#3A64D0]/10 w-full md:w-50 mx-auto rounded-xl space-y-3 p-3 border-r-[2px]  border-[#3A64D0] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                     <div class="flex justify-between items-center">
                         <h1 class="font-bold">درصد پرداخت سالانه</h1>
                         <div class="bg-[#3A64D033] rounded-full p-1">
@@ -132,7 +132,7 @@
                         <h1 class="text-xs">درصد پرداخت شده از کل معاش</h1>
                     </div>
                 </div>
-                <div class="bg-[#F5F5F5] w-full md:w-80 mx-auto rounded-xl space-y-3 p-3 border-r-2 border-[#1D4385] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-105 cursor-pointer">
+                <div class="bg-[#1D4385]/10 w-full md:w-50 mx-auto rounded-xl space-y-3 p-3 border-r-[2px]  border-[#1D4385] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                     <div class="flex justify-between items-center">
                         <h1 class="font-bold">درصد پرداخت ماهانه</h1>
                         <div class="bg-[#1D438533] rounded-full p-1">
@@ -148,13 +148,13 @@
                         <h1 class="font-bold">75,000؋</h1>
                         <h1 class="text-xs">درصد پرداخت شده این ماه</h1>
                     </div>
-                </div>    
+                </div>
             </div>
         </div>
-        <div class="md:grid grid-cols-6 md:mx-5 mt-2 gap-4">
+        <div class="md:grid grid-cols-6  mt-2 gap-4">
             <!-- Form -->
             <div class="col-span-2">
-                <div class="mt-3 px-2 py-4 rounded-xl shadow-[0_0_4px_rgba(7,70,247,1)]">
+                <div class="mt-3 px-2 py-4 bg-[#fafafa] rounded-xl shadow-xl shadow-[0px_4px_4px_0px_#00000040]">
                     <div class="flex items-center cursor-pointer border border-[#0948EE] rounded-lg py-4 px-2">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.99609 8.5H11.4961" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -182,8 +182,8 @@
                                     <path d="M7.22656 11.9412C7.22656 13.0162 8.05156 13.8829 9.07656 13.8829H11.1682C12.0599 13.8829 12.7849 13.1245 12.7849 12.1912C12.7849 11.1745 12.3432 10.8162 11.6849 10.5829L8.32656 9.41621C7.66823 9.18288 7.22656 8.82454 7.22656 7.80788C7.22656 6.87454 7.95156 6.11621 8.84323 6.11621H10.9349C11.9599 6.11621 12.7849 6.98288 12.7849 8.05788" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M10 5V15" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>    
-                            </div>   
+                                </svg>
+                            </div>
                         </div>
                         <div class="relative w-full">
                             <input type="text" class="py-4 pr-1 outline-none w-full border border-gray-500 rounded-lg" placeholder="تاریخ">
@@ -206,8 +206,8 @@
                                             <rect width="20" height="20" fill="white"/>
                                         </clipPath>
                                     </defs>
-                                </svg>    
-                            </div>                        
+                                </svg>
+                            </div>
                         </div>
                     </div>
                     <div class="mt-2">
@@ -221,12 +221,12 @@
             </div>
             <!-- Table -->
             <div class="col-span-4">
-                <div class="bg-white mt-3 py-4 px-3 md:px-2 rounded-xl shadow-[0_0_4px_rgba(7,70,247,1)]">
+                <div class="bg-[#fafafa] mt-3 py-4 px-3 md:px-2 rounded-xl shadow-xl shadow-[0px_4px_4px_0px_#00000040]">
                     <div class="">
                         <!-- Title -->
                         <div class="flex justify-between items-center border-b border-dotted border-[#0948EE] md:border-none pb-2 md:mb-0">
                             <div class="flex items-center">
-                                <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="25" height="25" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_464_1158)">
                                         <path d="M34.4314 16.596L32.8736 23.2407C31.5383 28.9792 28.8995 31.3001 23.9398 30.8232C23.145 30.7596 22.2866 30.6166 21.3646 30.394L18.694 29.7582C12.0652 28.1844 10.0146 24.9098 11.5725 18.2651L13.1303 11.6045C13.4482 10.2533 13.8297 9.07698 14.3066 8.1073C16.1665 4.26038 19.3299 3.22712 24.6393 4.48293L27.294 5.10289C33.9545 6.66073 35.9893 9.95128 34.4314 16.596Z" stroke="#0948EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M23.9399 30.8228C22.9543 31.4905 21.7144 32.0469 20.2043 32.5397L17.6926 33.3663C11.3818 35.401 8.05944 33.7001 6.00881 27.3892L3.97408 21.1102C1.93934 14.7993 3.62436 11.4611 9.93522 9.42633L12.4468 8.59972C13.0986 8.39307 13.7186 8.21821 14.3067 8.10693C13.8298 9.07661 13.4483 10.2529 13.1304 11.6041L11.5725 18.2647C10.0147 24.9094 12.0653 28.1841 18.6941 29.7578L21.3647 30.3936C22.2867 30.6162 23.1451 30.7593 23.9399 30.8228Z" stroke="#0948EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -239,10 +239,10 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <h1 class="font-bold text-sm md:text-xl">لیست معاش های پرداخت شده:</h1>
+                                <h1 class="font-bold text-sm md:text-[15px]">لیست معاش های پرداخت شده:</h1>
                             </div>
                             <div class="flex gap-2">
-                                <div class="bg-[#0948EE14] p-2 text-[4px] rounded-lg text- flex items-center cursor-pointer">
+                                <div class="bg-[#0B35CC]/20 p-2 text-[4px] rounded-lg text- flex items-center cursor-pointer">
                                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_464_1127)">
                                             <path d="M10.73 12.424V6.21191" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -264,7 +264,7 @@
                                     <p class="md:flex hidden text-xs">فیلتر</p>
                                 </div>
                                 <div class="relative">
-                                    <input type="text" name="" id="" class="py-2 pr-2 bg-[#0948EE14] rounded-lg w-26 md:w-40 outline-none" placeholder="جستجو...">
+                                    <input type="text" name="" id="" class="py-2 pr-2 bg-[#0B35CC]/20 rounded-lg w-26 md:w-40 outline-none" placeholder="جستجو...">
                                     <div class="absolute top-3 left-2">
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M6.46875 15.3184C9.42002 15.3184 11.8125 12.793 11.8125 9.67773C11.8125 6.5625 9.42002 4.03711 6.46875 4.03711C3.51748 4.03711 1.125 6.5625 1.125 9.67773C1.125 12.793 3.51748 15.3184 6.46875 15.3184Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -272,10 +272,10 @@
                                         </svg>
                                     </div>
                                 </div>
-                            </div>    
+                            </div>
                         </div>
                         <div class="rounded-lg border border-[#0948EE] mt-3">
-                            <div class="hidden md:grid grid-cols-14 items-center bg-gray-200 mb-1 px-2 py-4">
+                            <div class="hidden md:grid grid-cols-14 items-center bg-[#0B35CC]/20 mb-1 px-2 py-4">
                                 <div class="text-center"><p class="font-bold">شماره</p></div>
                                 <div class="col-span-2 text-center"><p class="font-bold">نام کارمند</p></div>
                                 <div class="col-span-2 text-center"><p class="font-bold">شغل</p></div>
@@ -296,7 +296,7 @@
                                     <div class="text-center">
                                         <h1 class="text-[#00000080] block md:hidden">تاریخ:</h1>
                                         <p class="text-sm">1404/4/20</p>
-                                    </div>   
+                                    </div>
                                 </div>
                                 <div class="col-span-5 grid grid-cols-2 md:grid-cols-5 my-3 md:my-0">
                                     <div class="md:col-span-2 text-center">
@@ -334,10 +334,10 @@
                                             <path d="M18.8499 9.13965L18.1999 19.2096C18.0899 20.7796 17.9999 21.9996 15.2099 21.9996H8.7899C5.9999 21.9996 5.9099 20.7796 5.7999 19.2096L5.1499 9.13965" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>   
+                                        </svg>
                                         <p class="text-[#FF0000] block md:hidden">حذف</p>
-                                    </div>                                
-                                </div>    
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="md:grid grid-cols-14 items-center mt-3 md:mt-0 py-3 border-b border-dotted border-[#0948EE]">
@@ -351,7 +351,7 @@
                                     <div class="text-center">
                                         <h1 class="text-[#00000080] block md:hidden">تاریخ:</h1>
                                         <p class="text-sm">1404/4/20</p>
-                                    </div>   
+                                    </div>
                                 </div>
                                 <div class="col-span-5 grid grid-cols-2 md:grid-cols-5 my-3 md:my-0">
                                     <div class="md:col-span-2 text-center">
@@ -389,10 +389,10 @@
                                             <path d="M18.8499 9.13965L18.1999 19.2096C18.0899 20.7796 17.9999 21.9996 15.2099 21.9996H8.7899C5.9999 21.9996 5.9099 20.7796 5.7999 19.2096L5.1499 9.13965" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>   
+                                        </svg>
                                         <p class="text-[#FF0000] block md:hidden">حذف</p>
                                     </div>
-                                </div>    
+                                </div>
                             </div>
 
                             <div class="md:grid grid-cols-14 items-center mt-3 md:mt-0 py-3 border-b border-dotted border-[#0948EE]">
@@ -406,7 +406,7 @@
                                     <div class="text-center">
                                         <h1 class="text-[#00000080] block md:hidden">تاریخ:</h1>
                                         <p class="text-sm">1404/4/20</p>
-                                    </div>   
+                                    </div>
                                 </div>
                                 <div class="col-span-5 grid grid-cols-2 md:grid-cols-5 my-3 md:my-0">
                                     <div class="md:col-span-2 text-center">
@@ -444,10 +444,10 @@
                                             <path d="M18.8499 9.13965L18.1999 19.2096C18.0899 20.7796 17.9999 21.9996 15.2099 21.9996H8.7899C5.9999 21.9996 5.9099 20.7796 5.7999 19.2096L5.1499 9.13965" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>   
+                                        </svg>
                                         <p class="text-[#FF0000] block md:hidden">حذف</p>
                                     </div>
-                                </div>    
+                                </div>
                             </div>
 
                             <div class="md:grid grid-cols-14 items-center mt-3 md:mt-0 py-3 border-b border-dotted border-[#0948EE]">
@@ -461,7 +461,7 @@
                                     <div class="text-center">
                                         <h1 class="text-[#00000080] block md:hidden">تاریخ:</h1>
                                         <p class="text-sm">1404/4/20</p>
-                                    </div>   
+                                    </div>
                                 </div>
                                 <div class="col-span-5 grid grid-cols-2 md:grid-cols-5 my-3 md:my-0">
                                     <div class="md:col-span-2 text-center">
@@ -499,10 +499,10 @@
                                             <path d="M18.8499 9.13965L18.1999 19.2096C18.0899 20.7796 17.9999 21.9996 15.2099 21.9996H8.7899C5.9999 21.9996 5.9099 20.7796 5.7999 19.2096L5.1499 9.13965" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>   
+                                        </svg>
                                         <p class="text-[#FF0000] block md:hidden">حذف</p>
                                     </div>
-                                </div>    
+                                </div>
                             </div>
 
                             <div class="md:grid grid-cols-14 items-center mt-3 md:mt-0 py-3 border-b border-dotted border-[#0948EE]">
@@ -516,7 +516,7 @@
                                     <div class="text-center">
                                         <h1 class="text-[#00000080] block md:hidden">تاریخ:</h1>
                                         <p class="text-sm">1404/4/20</p>
-                                    </div>   
+                                    </div>
                                 </div>
                                 <div class="col-span-5 grid grid-cols-2 md:grid-cols-5 my-3 md:my-0">
                                     <div class="md:col-span-2 text-center">
@@ -554,12 +554,12 @@
                                             <path d="M18.8499 9.13965L18.1999 19.2096C18.0899 20.7796 17.9999 21.9996 15.2099 21.9996H8.7899C5.9999 21.9996 5.9099 20.7796 5.7999 19.2096L5.1499 9.13965" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>   
+                                        </svg>
                                         <p class="text-[#FF0000] block md:hidden">حذف</p>
                                     </div>
-                                </div>    
+                                </div>
                             </div>
-                                
+
                             <div class="md:grid grid-cols-14 items-center mt-3 md:mt-0 py-3">
                                 <div class="hidden md:flex justify-center"><p class="text-sm">1</p></div>
                                 <div class="col-span-2 text-center"><p class="text-sm">محمود عزیزی</p></div>
@@ -571,7 +571,7 @@
                                     <div class="text-center">
                                         <h1 class="text-[#00000080] block md:hidden">تاریخ:</h1>
                                         <p class="text-sm">1404/4/20</p>
-                                    </div>   
+                                    </div>
                                 </div>
                                 <div class="col-span-5 grid grid-cols-2 md:grid-cols-5 my-3 md:my-0">
                                     <div class="md:col-span-2 text-center">
@@ -609,10 +609,10 @@
                                             <path d="M18.8499 9.13965L18.1999 19.2096C18.0899 20.7796 17.9999 21.9996 15.2099 21.9996H8.7899C5.9999 21.9996 5.9099 20.7796 5.7999 19.2096L5.1499 9.13965" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M10.3301 16.5H13.6601" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M9.5 12.5H14.5" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>   
+                                        </svg>
                                         <p class="text-[#FF0000] block md:hidden">حذف</p>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
                         </div>
                         <!-- pagination -->
@@ -625,8 +625,8 @@
                             <a class=" px-1 rounded-lg bg-[#0948EE14]" href="#">&#62;</a>
                         </div>
                     </div>
-                </div>        
+                </div>
             </div>
-        </div>        
+        </div>
     </div>
 </div>

@@ -1,4 +1,4 @@
 @extends('Mobile.layouts.app')
 @section('content')
-@livewire('mobile.accounts-page')
+@livewire('mobile.user-information2')
 @endsection

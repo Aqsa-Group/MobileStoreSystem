@@ -1,9 +1,9 @@
 <div>
 
-<div class="bg-gray-100 font-sans text-gray-800 flex items-center justify-center p-3 sm:p-4">
+<div class=" text-gray-800 flex items-center justify-center p-3 sm:p-4">
 
   <!-- باکس اصلی سفید -->
-  <div class="w-full md:w-[600px] mt-[45] shadow-[0px_4px_4px_0px_#00000040] bg-gray-100 lg:w-[1000px] bg-white rounded-2xl shadow-lg flex flex-col lg:flex-row overflow-hidden">
+  <div class="w-full md:w-[600px] shadow-[0px_4px_4px_0px_#00000040]  lg:w-[900px] bg-white rounded-2xl shadow-lg flex flex-col lg:flex-row overflow-hidden">
 
     <div class="flex-1 lg:w-7/12 flex items-center justify-center p-5 sm:p-6 order-1 lg:order-1">
       <div class="w-full max-w-md text-center lg:text-right">
@@ -15,14 +15,14 @@
 
         <!-- تصویر موفقیت -->
         <div class="flex justify-center mb-4">
-          <img src="https://i.postimg.cc/dQR7S7rR/photo-2025-11-21-10-56-21.jpg" alt="Success" 
-               class="w-[500px] sm:w-80 md:w-90 rounded-xl shadow-md">
+          <img src="https://i.postimg.cc/zGQSH9YZ/mkk-removebg-preview-(1).png" alt="Success"
+               class="w-[500px] sm:w-80 md:w-90 rounded-xl ">
         </div>
 
         <!-- دکمه بازگشت -->
         <div class="flex justify-center">
-          <a 
-             class=" w-56 flex justify-center py-2.5 rounded-xl bg-[#FF0000] text-white text-sm sm:text-base font-semibold transition-all duration-200">
+          <a href="{{ route('customers') }}"
+             class=" w-[300px] flex justify-center py-2.5 rounded-xl bg-[#FF0000] text-white text-sm sm:text-base font-semibold transition-all duration-200">
             بازگشت به صفحه اصلی
           </a>
         </div>
@@ -41,7 +41,7 @@
   </div>
 </div>
 <!-- ✅ فونت وزیر از گوگل -->
-<link 
+<link
 href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   * {

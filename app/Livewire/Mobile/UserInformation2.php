@@ -4,10 +4,10 @@ namespace App\Livewire\Mobile;
 
 use Livewire\Component;
 
-class Dashbord extends Component
+class UserInformation2 extends Component
 {
     public function render()
     {
-        return view('livewire.mobile.dashbord');
+        return view('livewire.mobile.user-information2');
     }
 }
