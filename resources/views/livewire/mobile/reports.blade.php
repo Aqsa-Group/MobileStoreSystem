@@ -152,7 +152,7 @@
             <!--mobile mode-->
             <!-- buttons-->
             <div class="flex flex-wrap gap-2 md:hidden mt-3 text-sm">
-            <!-- button 1 -->
+                <!-- button 1 -->
                 <button class="h-[40px] w-full bg-[#0B35CC1A] text-black rounded-xl flex  px-1"
                  style="box-shadow: 0px 4px 4px 0px #00000040, 0 0 0 0 #0B35CC40;">
                         <!--icon-->
@@ -192,7 +192,6 @@
                             قرضها
                         </span>
                 </button>
-
                 <!-- button 3-->
                 <button class="h-[40px] w-full bg-[#0B35CC1A] text-black rounded-xl flex px-1"
                     style="box-shadow: 0px 4px 4px 0px #00000040, 0 0 0 0 #0B35CC40;">
@@ -520,13 +519,10 @@
                 this.classList.toggle('text-black');
                 this.classList.toggle('text-white');
             })});
-
         const icon = document.getElementById('invoiceIcon');
-
         icon.addEventListener('click', () => {
             icon.classList.toggle('text-black');   // رنگ اولیه
             icon.classList.toggle('text-blue-600'); // رنگ بعد از کلیک
         });
-
     </script>
 </div>

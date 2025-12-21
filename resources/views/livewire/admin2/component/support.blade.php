@@ -1,10 +1,10 @@
 <div> <!-- المان ریشه Livewire -->
-    <div class="flex max-w-7xl mx-auto">
+    <div class="flex max-w-7xl mx-auto mt-[20%]   sm:mt-[70px]">
         <!-- Main -->
         <div class="pt-8 pb-4 px-4 ">
             <!-- Cards -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
-                <div class="rounded-xl transition-all duration-200 hover:scale-105 cursor-pointer shadow-[0px_4px_4px_0px_#00000040] p-4 bg-[#fafafa]">
+                <div class="rounded-xl transition-all duration-200 hover:scale-105 cursor-pointer shadow-[0px_4px_4px_0px_#00000040] p-4 ">
                     <div class="flex justify-between">
                         <h1 class="font-bold text-xl">تکت های باز</h1>
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -17,7 +17,7 @@
                         <p class="text-xs my-4">درخواستهای که در انتطار بررسی هستند.</p>
                     </div>
                 </div>
-                <div class="rounded-xl transition-all duration-200 hover:scale-105 cursor-pointer shadow-[0px_4px_4px_0px_#00000040] p-4 bg-[#fafafa]">
+                <div class="rounded-xl transition-all duration-200 hover:scale-105 cursor-pointer shadow-[0px_4px_4px_0px_#00000040] p-4 ">
                     <div class="flex justify-between">
                         <h1 class="font-bold text-xl">در حال بررسی</h1>
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +33,7 @@
                         <p class="text-xs my-4">درخواستهای که در انتطار بررسی هستند.</p>
                     </div>
                 </div>
-                <div class="rounded-xl transition-all duration-200 hover:scale-105 cursor-pointer shadow-[0px_4px_4px_0px_#00000040] p-4 bg-[#fafafa]">
+                <div class="rounded-xl transition-all duration-200 hover:scale-105 cursor-pointer shadow-[0px_4px_4px_0px_#00000040] p-4 ">
                     <div class="flex justify-between">
                         <h1 class="font-bold text-xl">حل شده</h1>
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@
                         <p class="text-xs my-4">درخواستهای که در انتطار بررسی هستند.</p>
                     </div>
                 </div>
-                <div class="rounded-xl transition-all duration-200 hover:scale-105 cursor-pointer shadow-[0px_4px_4px_0px_#00000040] p-4 bg-[#fafafa]">
+                <div class="rounded-xl transition-all duration-200 hover:scale-105 cursor-pointer shadow-[0px_4px_4px_0px_#00000040] p-4 ">
                     <div class="flex justify-between">
                         <h1 class="font-bold text-xl">مشکلات فوری</h1>
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -119,7 +119,7 @@
                     </div>
                     <div class="px-12 py-4">
                         <div class="relative w-full">
-                            <input type="text" class="bg-[#fafafa] py-5 pr-4 pl-20 rounded-3xl outline-none w-full text-xl placeholder-gray-800" placeholder="نوشتن پیام...">
+                            <input type="text" class=" py-5 pr-4 pl-20 rounded-3xl outline-none w-full text-xl placeholder-gray-800" placeholder="نوشتن پیام...">
                             <div class="absolute top-1.5 left-3 p-4 bg-white rounded-full">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M18.0697 9.57L11.9997 3.5L5.92969 9.57" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>

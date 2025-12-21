@@ -454,9 +454,8 @@
       requestAnimationFrame(() => {
         el.classList.add("fade-enter-active");
         el.classList.remove("fade-enter");
-});
-}
-
+    });
+    }
     function fadeOut(el, callback) {
       el.classList.add("fade-leave");
       requestAnimationFrame(() => {
@@ -466,21 +465,19 @@
           el.classList.remove("fade-leave-active");
           el.classList.add("hidden");
           if (callback) callback();
-}, 300);
-});
-}
-
+    }, 300);
+    });
+    }
     function handleClickDiv1() {
       if (window.innerWidth < 768) {
         const div1 = document.getElementById("div1");
         const div2 = document.getElementById("div2");
         fadeOut(div1, () => fadeIn(div2));
-}
-}
-
+    }
+    }
     function handleClickBack() {
       const div1 = document.getElementById("div1");
       const div2 = document.getElementById("div2");
       fadeOut(div2, () => fadeIn(div1));
-}
+    }
 </script>

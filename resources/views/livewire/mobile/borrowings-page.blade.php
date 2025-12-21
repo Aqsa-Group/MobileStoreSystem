@@ -94,7 +94,6 @@
         </div>
     </div>
     <div class="grid grid-cols-1 max-w-7xl mx-auto lg:grid-cols-3 gap-3">
-
         <!-- فرم -->
         <div class="bg-[#fafafa] rounded-2xl shadow-[0_4px_12px] shadow-lg border border-gray-200 w-full lg:max-w-full p-3">
             <div class="flex justify-between mb-2 shadow p-3 rounded-xl border border-[#0948EE]">
@@ -107,7 +106,6 @@
                 <path d="M19.0764 4.13031L15.3664 7.84031C15.2264 7.98031 15.0864 8.26031 15.0564 8.46031L14.8564 9.88031C14.7864 10.3903 15.1464 10.7503 15.6564 10.6803L17.0764 10.4803C17.2764 10.4503 17.5564 10.3103 17.6964 10.1703L21.4064 6.46031C22.0464 5.82031 22.3464 5.08031 21.4064 4.14031C20.4564 3.19031 19.7164 3.49031 19.0764 4.13031Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M18.5459 4.66016C18.8659 5.79016 19.7459 6.67016 20.8659 6.98016" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-
                     <h2 class="text-bold text-[13px]">فورم ثبت قرضه</h2>
                 </div>
                 <div>
@@ -126,11 +124,9 @@
                     </button>
                 </div>
             </div>
-
             <select class="w-full rounded-xl border  border-gray-900 p-4 text-sm mb-3">
                 <option class="text-gray-100">انتخاب با جستجوی مشتری...</option>
             </select>
-
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-3">
                 <div class="border rounded-xl p-4 border-gray-900 flex items-center gap-2">
                     <label class="text-gray-500 text-sm">مبلغ</label>
@@ -151,7 +147,6 @@
 
                     </i>
                 </div>
-
                 <div class="border rounded-xl p-4 border-gray-900 flex items-center gap-2">
                     <label class="text-gray-500 text-sm">تاریخ</label>
                     <input class="w-full bg-transparent focus:outline-none text-sm">
@@ -179,16 +174,13 @@
                     </i>
                 </div>
             </div>
-
             <textarea class="w-full rounded-xl border  border-gray-900 p-2 text-sm h-28 mb-3" placeholder="توضیحات..."></textarea>
-
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-2">
                 <button class="bg-blue-600 text-white rounded-xl py-3 text-sm">ثبت</button>
                 <button class="bg-blue-700 text-white rounded-xl py-3 text-sm">ثبت و چاپ</button>
                 <button class="bg-red-600 text-white rounded-xl py-3 text-sm">انصراف</button>
             </div>
         </div>
-
         <!-- جدول و کارت موبایل -->
         <div class="lg:col-span-2 bg-[#fafafa] rounded-2xl shadow-[0_4px_12px] shadow-lg border border-gray-200 w-full lg:max-w-full p-3">
             <!-- کارت موبایل -->

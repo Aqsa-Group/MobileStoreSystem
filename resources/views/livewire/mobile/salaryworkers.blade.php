@@ -284,7 +284,6 @@
                                 <div class="col-span-3 text-center"><p class="font-bold">توضیحات</p></div>
                                 <div class="col-span-2 text-center"><p class="font-bold">عملیات</p></div>
                             </div>
-
                             <div class="md:grid grid-cols-14 items-center mt-3 md:mt-0 py-3 border-b border-dotted border-[#0948EE]">
                                 <div class="hidden md:flex justify-center"><p class="text-sm">1</p></div>
                                 <div class="col-span-2 text-center"><p class="text-sm">محمود عزیزی</p></div>
@@ -339,7 +338,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="md:grid grid-cols-14 items-center mt-3 md:mt-0 py-3 border-b border-dotted border-[#0948EE]">
                                 <div class="hidden md:flex justify-center"><p class="text-sm">1</p></div>
                                 <div class="col-span-2 text-center"><p class="text-sm">محمود عزیزی</p></div>
@@ -394,7 +392,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="md:grid grid-cols-14 items-center mt-3 md:mt-0 py-3 border-b border-dotted border-[#0948EE]">
                                 <div class="hidden md:flex justify-center"><p class="text-sm">1</p></div>
                                 <div class="col-span-2 text-center"><p class="text-sm">محمود عزیزی</p></div>
@@ -449,7 +446,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="md:grid grid-cols-14 items-center mt-3 md:mt-0 py-3 border-b border-dotted border-[#0948EE]">
                                 <div class="hidden md:flex justify-center"><p class="text-sm">1</p></div>
                                 <div class="col-span-2 text-center"><p class="text-sm">محمود عزیزی</p></div>
@@ -504,7 +500,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="md:grid grid-cols-14 items-center mt-3 md:mt-0 py-3 border-b border-dotted border-[#0948EE]">
                                 <div class="hidden md:flex justify-center"><p class="text-sm">1</p></div>
                                 <div class="col-span-2 text-center"><p class="text-sm">محمود عزیزی</p></div>
@@ -559,7 +554,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="md:grid grid-cols-14 items-center mt-3 md:mt-0 py-3">
                                 <div class="hidden md:flex justify-center"><p class="text-sm">1</p></div>
                                 <div class="col-span-2 text-center"><p class="text-sm">محمود عزیزی</p></div>

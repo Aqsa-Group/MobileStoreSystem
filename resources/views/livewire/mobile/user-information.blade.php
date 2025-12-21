@@ -60,8 +60,6 @@
             </div>
         </div>
     </div>
-    <!-- ✅ فونت وزیر از گوگل -->
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
          * { font-family: "Vazirmatn", sans-serif !important; }
         @keyframes fade-slide {

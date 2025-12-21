@@ -140,65 +140,79 @@
                     </svg>
                     <span class="text-[15px]">مشتریان</span>
                 </a>
-                <div x-data="{ open: false , active: ''}" class="w-full">
+                <div
+                    x-data="{
+                        open: @js(
+                            request()->routeIs('accounts') ||
+                            request()->routeIs('salaryworkers') ||
+                            request()->routeIs('borrowings')
+                        )
+                    }"
+                    class="w-full"
+                    >
+                    <!-- دکمه اصلی -->
                     <button
                         @click.prevent="open = !open"
+                        :class="{ 'bg-blue-600 text-white': open }"
                         class="menu-btn group w-full text-right flex items-center gap-3 rounded-xl px-2 py-2 text-sm text-gray-700 transition hover:bg-blue-600 hover:text-white"
-                        style="cursor: pointer;">
-                        <svg class="group-hover:fill-white" width="24" height="24" viewBox="0 0 24 24" fill="#fff">
-                            <path d="M21 7V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V7C3 4 4.5 2 8 2H16C19.5 2 21 4 21 7Z"
-                                stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M16.25 11H7.75C6.79 11 6 10.21 6 9.25V6.75C6 5.79 6.79 5 7.75 5H16.25C17.21 5 18 5.79 18 6.75V9.25C18 10.21 17.21 11 16.25 11Z"
-                                stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M10.3 15.2803L8 17.5803" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M8.03003 15.3101L10.33 17.61" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M16.49 15.3301H16.51" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M14.49 17.5V17.48" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        style="cursor: pointer;"
+                        >
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 7V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V7C3 4 4.5 2 8 2H16C19.5 2 21 4 21 7Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16.25 11H7.75C6.79 11 6 10.21 6 9.25V6.75C6 5.79 6.79 5 7.75 5H16.25C17.21 5 18 5.79 18 6.75V9.25C18 10.21 17.21 11 16.25 11Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10.3 15.2803L8 17.5803" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.03003 15.3101L10.33 17.61" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16.49 15.3301H16.51" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M14.49 17.5V17.48" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                         <span class="text-[15px]">حسابات</span>
-                        <i class="fa-solid  fa-chevron-down transition ml-auto"
-                        :class="open ? 'rotate-180' : ''"></i>
+                        <i
+                            class="fa-solid fa-chevron-down transition ml-auto"
+                            :class="{ 'rotate-180': open }"
+                        ></i>
                     </button>
+                    <!-- زیرمنو -->
                     <div x-show="open" x-transition class="w-full mt-1 space-y-1">
-                        <a href="{{ route('accounts') }}" :class="{ 'bg-blue-600 text-white': '{{ request()->routeIs('accounts') }}' }"
-                         class="menu-btn rounded-lg bg-gray-50  group w-full text-right flex   gap-3 rounded-xl px-5 py-2 text-sm text-gray-700 transition hover:bg-blue-600 hover:text-white ">
-                            <svg width="17" height="17" viewBox="0 0 17 17" fill="#fff" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.07633 12.7357C10.202 12.7357 12.7359 10.2018 12.7359 7.07609C12.7359 3.95039 10.202 1.4165 7.07633 1.4165C3.95063 1.4165 1.41675 3.95039 1.41675 7.07609C1.41675 10.2018 3.95063 12.7357 7.07633 12.7357Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M9.19409 14.0818C9.83159 14.9814 10.8728 15.5693 12.0628 15.5693C13.9966 15.5693 15.5691 13.9968 15.5691 12.0631C15.5691 10.8872 14.9883 9.846 14.1028 9.2085" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M5.66675 8.0751C5.66675 8.62051 6.09175 9.06676 6.60883 9.06676H7.67133C8.12466 9.06676 8.493 8.67718 8.493 8.2026C8.493 7.68551 8.26633 7.50135 7.93341 7.38093L6.23341 6.78593C5.89341 6.66551 5.66675 6.48135 5.66675 5.96426C5.66675 5.48968 6.03508 5.1001 6.48841 5.1001H7.55091C8.07508 5.10718 8.50008 5.54635 8.50008 6.09176" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M7.08325 9.10205V9.62622" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M7.08325 4.54053V5.09303" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                        <a
+                            href="{{ route('accounts') }}"
+                            :class="{ 'bg-blue-400 text-white': @js(request()->routeIs('accounts')) }"
+                            class="menu-btn bg-gray-50 group w-full text-right flex gap-3 rounded-xl px-5 py-2 text-sm text-gray-700 transition hover:bg-blue-400 hover:text-white"
+                        >
                             <span class="text-[14px]">برداشت ها</span>
                         </a>
-                        <a href="{{ route('salaryworkers') }}" :class="{ 'bg-blue-600 text-white': '{{ request()->routeIs('salaryworkers') }}' }"
-                        class="menu-btn rounded-lg bg-gray-50  group w-full text-right flex   gap-3 rounded-xl px-5 py-2 text-sm text-gray-700 transition  hover:bg-blue-600 hover:text-white">
-                            <svg width="17" height="17" viewBox="0 0 17 17" fill="#fff" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15.5833 7.77032V9.22953C15.5833 9.61911 15.2717 9.93783 14.875 9.952H13.4866C12.7216 9.952 12.0204 9.39242 11.9567 8.62742C11.9142 8.18117 12.0841 7.76325 12.3816 7.47283C12.6437 7.20367 13.005 7.04785 13.4016 7.04785H14.875C15.2717 7.06202 15.5833 7.38074 15.5833 7.77032Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M12.3817 7.47275C12.0842 7.76316 11.9143 8.18108 11.9568 8.62733C12.0205 9.39233 12.7217 9.95191 13.4867 9.95191H14.8751V10.979C14.8751 13.104 13.4584 14.5207 11.3334 14.5207H4.95841C2.83341 14.5207 1.41675 13.104 1.41675 10.979V6.02067C1.41675 4.094 2.57842 2.74817 4.38467 2.5215C4.56883 2.49317 4.76008 2.479 4.95841 2.479H11.3334C11.5176 2.479 11.6947 2.48608 11.8647 2.51441C13.6922 2.72691 14.8751 4.07984 14.8751 6.02067V7.04776H13.4017C13.0051 7.04776 12.6438 7.20358 12.3817 7.47275Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M9.20825 6.375H4.95825" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                        <a
+                            href="{{ route('salaryworkers') }}"
+                            :class="{ 'bg-blue-400 text-white': @js(request()->routeIs('salaryworkers')) }"
+                            class="menu-btn bg-gray-50 group w-full text-right flex gap-3 rounded-xl px-5 py-2 text-sm text-gray-700 transition hover:bg-blue-400 hover:text-white"
+                        >
                             <span class="text-[14px]">معاش ها</span>
                         </a>
-                        <a href="{{ route('borrowings') }}" :class="{ 'bg-blue-600 text-white': '{{ request()->routeIs('borrowings') }}' }"
-                         class="menu-btn rounded-lg bg-gray-50  group w-full text-right flex   gap-3 rounded-xl px-5 py-2 text-sm text-gray-700 transition hover:bg-blue-600 hover:text-white ">
-                            <svg width="17" height="17" viewBox="0 0 17 17" fill="#fff" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.448 10.8091H12.7643" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M8.31592 12.5728H12.5093C12.4455 12.6295 12.3817 12.6791 12.318 12.7357L9.29341 15.0024C8.29466 15.7461 6.6655 15.7461 5.65967 15.0024L2.628 12.7357C1.96217 12.2399 1.41675 11.142 1.41675 10.3132V5.06446C1.41675 4.2003 2.0755 3.24405 2.883 2.93946L6.4105 1.61488C6.99133 1.3953 7.95467 1.3953 8.5355 1.61488L12.0559 2.93946C12.7288 3.19446 13.3026 3.9028 13.4797 4.6253H8.30883C8.15299 4.6253 8.01133 4.63239 7.87674 4.63239C6.56633 4.71031 6.22633 5.18488 6.22633 6.67946V10.5257C6.23341 12.1549 6.65134 12.5728 8.31592 12.5728Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M6.2334 7.94727H15.5834" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M15.5834 6.67258V10.6038C15.5692 12.1763 15.1371 12.5659 13.5009 12.5659H8.3159C6.65132 12.5659 6.2334 12.148 6.2334 10.5117V6.66549C6.2334 5.17799 6.5734 4.7034 7.88382 4.6184C8.0184 4.6184 8.16007 4.61133 8.3159 4.61133H13.5009C15.1655 4.61841 15.5834 5.02925 15.5834 6.67258Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M8.01831 10.8091H8.96038" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span class="text-[14px]"> قرضه ها</span>
+                        <a
+                            href="{{ route('borrowings') }}"
+                            :class="{ 'bg-blue-400 text-white': @js(request()->routeIs('borrowings')) }"
+                            class="menu-btn bg-gray-50 group w-full text-right flex gap-3 rounded-xl px-5 py-2 text-sm text-gray-700 transition hover:bg-blue-400 hover:text-white"
+                        >
+                            <span class="text-[14px]">قرضه ها</span>
                         </a>
                     </div>
                 </div>
-                <div x-data="{ open: false }" class="w-full">
+                <div
+                    x-data="{
+                        open: {{ request()->routeIs('sell') || request()->routeIs('inventory') || request()->routeIs('inventory2') ? 'true' : 'false' }}
+                    }"
+                    class="w-full"
+                    >
+                    <!-- دکمه اصلی -->
                     <button
-                        @click.prevent="open = !open"
-                        class="menu-btn group w-full text-right flex items-center gap-3 rounded-xl px-2 py-2 text-sm text-gray-700 transition hover:bg-blue-600 hover:text-white"
-                        style="cursor: pointer;">
-                        <svg  width="24" height="24" viewBox="0 0 24 24" fill="#ffff" xmlns="http://www.w3.org/2000/svg">
+                        @click="open = !open"
+                        type="button"
+                        class="menu-btn group w-full text-right flex items-center gap-3 rounded-xl px-2 py-2 text-sm transition
+                        {{ request()->routeIs('sell') || request()->routeIs('inventory') || request()->routeIs('inventory2')
+                            ? 'bg-blue-600 text-white'
+                            : 'text-gray-700 hover:bg-blue-600 hover:text-white' }}"
+                        style="cursor: pointer;"
+                    >
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.5 22.0003H4.07997C2.91997 22.0003 1.96997 21.0703 1.96997 19.9303V5.09035C1.96997 2.47035 3.91997 1.28035 6.30997 2.45035L10.75 4.63035C11.71 5.10035 12.5 6.35035 12.5 7.41035V22.0003Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M21.97 15.0599V18.8399C21.97 20.9999 20.97 21.9999 18.81 21.9999H12.5V10.4199L12.97 10.5199L17.47 11.5299L19.5 11.9799C20.82 12.2699 21.9 12.9499 21.96 14.8699C21.97 14.9299 21.97 14.9899 21.97 15.0599Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M5.5 9H8.97" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -207,52 +221,31 @@
                             <path d="M21.96 14.8703C21.9 16.0503 20.92 17.0003 19.72 17.0003C18.48 17.0003 17.47 15.9903 17.47 14.7503V11.5303L19.5 11.9803C20.82 12.2703 21.9 12.9503 21.96 14.8703Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                         <span class="text-[15px]">دوکانداری</span>
-                        <i class="fa-solid  fa-chevron-down transition ml-auto"
-                        :class="open ? 'rotate-180' : ''"></i>
+                        <i class="fa-solid fa-chevron-down transition ml-auto" :class="open ? 'rotate-180' : ''"></i>
                     </button>
+                    <!-- زیرمنوها -->
                     <div x-show="open" x-transition class="w-full mt-1 space-y-1">
-                        <a href="{{ route('sell') }}" :class="{ 'bg-blue-600 text-white': '{{ request()->routeIs('sell') }}' }"
-                         class="menu-btn rounded-lg bg-gray-50  group w-full text-right flex   gap-3 rounded-xl px-5 py-2 text-sm text-gray-700 transition hover:bg-blue-600 hover:text-white ">
-                            <svg width="17" height="17" viewBox="0 0 17 17" fill="#ffff" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.6708 5.6098V9.25774C13.6708 11.4394 12.4241 12.3744 10.5541 12.3744H4.32784C4.00909 12.3744 3.70451 12.3461 3.42118 12.2823C3.24409 12.254 3.0741 12.2044 2.91827 12.1478C1.85577 11.7511 1.21118 10.8302 1.21118 9.25774V5.6098C1.21118 3.42814 2.45784 2.49316 4.32784 2.49316H10.5541C12.1408 2.49316 13.2812 3.16608 13.5858 4.70316C13.6353 4.98649 13.6708 5.27689 13.6708 5.6098Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M15.7965 7.73477V11.3827C15.7965 13.5644 14.5498 14.4993 12.6798 14.4993H6.45354C5.92937 14.4993 5.4548 14.4285 5.04396 14.2727C4.20105 13.961 3.62729 13.3165 3.42188 12.2823C3.70521 12.3461 4.00979 12.3743 4.32854 12.3743H10.5548C12.4248 12.3743 13.6715 11.4394 13.6715 9.2577V5.60977C13.6715 5.27685 13.6431 4.97937 13.5865 4.70312C14.9323 4.98646 15.7965 5.9356 15.7965 7.73477Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M7.43642 9.3074C8.46919 9.3074 9.30643 8.47017 9.30643 7.43739C9.30643 6.40462 8.46919 5.56738 7.43642 5.56738C6.40364 5.56738 5.56641 6.40462 5.56641 7.43739C5.56641 8.47017 6.40364 9.3074 7.43642 9.3074Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M3.38574 5.87891V8.99559" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M11.4902 5.87939V8.99608" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                        <a href="{{ route('sell') }}"
+                        class="menu-btn group w-full flex gap-3 px-5 py-2 rounded-xl text-sm transition
+                        {{ request()->routeIs('sell') ? 'bg-blue-400 text-white' : 'bg-gray-50 text-gray-700 hover:bg-blue-400 hover:text-white' }}">
                             <span class="text-[14px]">فروشات</span>
                         </a>
-                        <a  href="{{ route('inventory') }}" :class="{ 'bg-blue-600 text-white': '{{ request()->routeIs('inventory') }}' }"
-                             class="menu-btn rounded-lg bg-gray-50  group w-full text-right flex   gap-3 rounded-xl px-5 py-2 text-sm text-gray-700 transition hover:bg-blue-600 hover:text-white ">
-                            <svg width="17" height="24" viewBox="0 0 24 24" fill="#ffff" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.00999 11.22V15.71C3.00999 20.2 4.80999 22 9.29999 22H14.69C19.18 22 20.98 20.2 20.98 15.71V11.22" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M12 12C13.83 12 15.18 10.51 15 8.68L14.34 2H9.67L9 8.68C8.82 10.51 10.17 12 12 12Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M18.31 12C20.33 12 21.81 10.36 21.61 8.35L21.33 5.6C20.97 3 19.97 2 17.35 2H14.3L15 9.01C15.17 10.66 16.66 12 18.31 12Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M5.64 12C7.29 12 8.78 10.66 8.94 9.01L9.16 6.8L9.64001 2H6.59C3.97001 2 2.97 3 2.61 5.6L2.34 8.35C2.14 10.36 3.62 12 5.64 12Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M12 17C10.33 17 9.5 17.83 9.5 19.5V22H14.5V19.5C14.5 17.83 13.67 17 12 17Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span class="text-[14px]"> موجودی دوکان </span>
+                        <a href="{{ route('inventory') }}"
+                        class="menu-btn group w-full flex gap-3 px-5 py-2 rounded-xl text-sm transition
+                        {{ request()->routeIs('inventory') ? 'bg-blue-400 text-white' : 'bg-gray-50 text-gray-700 hover:bg-blue-400 hover:text-white' }}">
+                            <span class="text-[14px]">موجودی دوکان</span>
                         </a>
-                        <a href="{{ route('inventory2') }}" :class="{ 'bg-blue-600 text-white': '{{ request()->routeIs('inventory2') }}' }"
-                         class="menu-btn rounded-lg bg-gray-50  group w-full text-right flex   gap-3 rounded-xl px-5 py-2 text-sm text-gray-700 transition hover:bg-blue-600 hover:text-white ">
-                            <svg width="17" height="17" viewBox="0 0 17 17" fill="#fff" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.41675 15.5835H15.5834" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M12.0417 1.4165H4.95833C2.83333 1.4165 2.125 2.68442 2.125 4.24984V15.5832H14.875V4.24984C14.875 2.68442 14.1667 1.4165 12.0417 1.4165Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M4.95825 11.6875H7.08325" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M9.91675 11.6875H12.0417" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M4.95825 8.5H7.08325" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M9.91675 8.5H12.0417" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M4.95825 5.3125H7.08325" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M9.91675 5.3125H12.0417" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span class="text-[14px]"> موجودی گدام </span>
+                        <a href="{{ route('inventory2') }}"
+                        class="menu-btn group w-full flex gap-3 px-5 py-2 rounded-xl text-sm transition
+                        {{ request()->routeIs('inventory2') ? 'bg-blue-400 text-white' : 'bg-gray-50 text-gray-700 hover:bg-blue-400 hover:text-white' }}">
+                            <span class="text-[14px]">موجودی گدام</span>
                         </a>
                     </div>
                 </div>
-                <a data-section="reports"  href="{{ route('reports') }}" :class="{ 'bg-blue-600 text-white': '{{ request()->routeIs('reports') }}' }"
-                    class="menu-btn group w-full text-right flex  gap-3 rounded-xl px-2 py-2 text-sm text-gray-700 transition hover:bg-blue-600 hover:text-white"
-                    style="cursor: pointer;">
-                    <svg  width="24" height="24" viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                <a data-section="reports" href="{{ route('reports') }}"
+                    class="menu-btn group w-full text-right flex gap-3 rounded-xl px-2 py-2 text-sm transition
+                    {{ request()->routeIs('reports') ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-blue-600 hover:text-white' }}">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" fill="#fff" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M10.11 11.1501H7.46005C6.83005 11.1501 6.32007 11.6601 6.32007 12.2901V17.4101H10.11V11.1501V11.1501Z" fill="#fff" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M12.7613 6.6001H11.2413C10.6113 6.6001 10.1013 7.11011 10.1013 7.74011V17.4001H13.8913V7.74011C13.8913 7.11011 13.3913 6.6001 12.7613 6.6001Z" fill="#fff" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -260,8 +253,9 @@
                     </svg>
                     <span class="text-[15px]">گزارشات</span>
                 </a>
-                <a data-section="fix"    href="{{ route('device.repair') }}" :class="{ 'bg-blue-600 text-white': '{{ request()->routeIs('device.repair') }}' }"
-                    class="menu-btn group w-full text-right flex  gap-3 rounded-xl px-2 py-2 text-sm text-gray-700 transition hover:bg-blue-600 hover:text-white"
+                <a data-section="fix" href="{{ route('device.repair') }}"
+                    class="menu-btn group w-full text-right flex gap-3 rounded-xl px-2 py-2 text-sm transition
+                    {{ request()->routeIs('device.repair') ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-blue-600 hover:text-white' }}"
                     style="cursor: pointer;">
                     <svg width="26" height="23" viewBox="0 0 26 23" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                         <path d="M21.6666 9.20016C21.6666 5.36683 19.9333 3.8335 15.5999 3.8335H10.3999C6.06659 3.8335 4.33325 5.36683 4.33325 9.20016V13.8002C4.33325 17.6335 6.06659 19.1668 10.3999 19.1668" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -279,19 +273,20 @@
                     </svg>
                     <span class="text-[15px]">خدمات و تعمیرات</span>
                 </a>
-                <a data-section="support"  href="{{ route('support') }}" :class="{ 'bg-blue-600 text-white': '{{ request()->routeIs('support') }}' }"
-                    class="menu-btn group w-full text-right flex  gap-3 rounded-xl px-2 py-2 text-sm text-gray-700 transition hover:bg-blue-600 hover:text-white"
-                    style="cursor: pointer;">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                <a data-section="support" href="{{ route('support') }}"
+                class="menu-btn group w-full text-right flex gap-3 rounded-xl px-2 py-2 text-sm transition
+                {{ request()->routeIs('support') ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-blue-600 hover:text-white' }}"
+                style="cursor: pointer;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 12.2V13.9C20 17.05 18.2 18.4 15.5 18.4H6.5C3.8 18.4 2 17.05 2 13.9V8.5C2 5.35 3.8 4 6.5 4H9.2C9.07 4.38 9 4.8 9 5.25V9.15002C9 10.12 9.32 10.94 9.89 11.51C10.46 12.08 11.28 12.4 12.25 12.4V13.79C12.25 14.3 12.83 14.61 13.26 14.33L16.15 12.4H18.75C19.2 12.4 19.62 12.33 20 12.2Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M22 5.25V9.15002C22 10.64 21.24 11.76 20 12.2C19.62 12.33 19.2 12.4 18.75 12.4H16.15L13.26 14.33C12.83 14.61 12.25 14.3 12.25 13.79V12.4C11.28 12.4 10.46 12.08 9.89 11.51C9.32 10.94 9 10.12 9 9.15002V5.25C9 4.8 9.07 4.38 9.2 4C9.64 2.76 10.76 2 12.25 2H18.75C20.7 2 22 3.3 22 5.25Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M7.3999 22H14.5999" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M11 18.3999V21.9999" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M18.4955 7.25H18.5045" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M15.6957 7.25H15.7047" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12.8954 7.25H12.9044" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <span class="text-[15px]"> پشتیبانی فنی</span>
+                    <path d="M22 5.25V9.15002C22 10.64 21.24 11.76 20 12.2C19.62 12.33 19.2 12.4 18.75 12.4H16.15L13.26 14.33C12.83 14.61 12.25 14.3 12.25 13.79V12.4C11.28 12.4 10.46 12.08 9.89 11.51C9.32 10.94 9 10.12 9 9.15002V5.25C9 4.8 9.07 4.38 9.2 4C9.64 2.76 10.76 2 12.25 2H18.75C20.7 2 22 3.3 22 5.25Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.3999 22H14.5999" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11 18.3999V21.9999" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.4955 7.25H18.5045" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M15.6957 7.25H15.7047" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12.8954 7.25H12.9044" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-[15px]">پشتیبانی فنی</span>
                 </a>
             </div>
         </nav>
